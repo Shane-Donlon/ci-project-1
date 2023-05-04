@@ -16,6 +16,7 @@
 
   --ff-tertiary: "Bebas Neue", cursive;
   --clamp-large: 2.5rem, 2.4048rem + 0.4762vw, 3rem;
+  --clamp-small: 1.125rem, 1rem + 4vw, 1.5rem;
 }
 
 body {
@@ -28,8 +29,7 @@ body {
   font-size: clamp(var(--clamp-large));
 }
 
-header,
-main {
+header {
   margin-block: 1em;
 }
 
@@ -43,6 +43,10 @@ p {
 }
 
 /* home page body style - stick footer to end of page */
+
+.home-page__main {
+  margin-top: 15vh;
+}
 
 .home-page__h1,
 .branding {
@@ -71,25 +75,42 @@ p {
 }
 
 .hero__text {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 
 .routes__link {
-  margin-inline: auto;
   padding: 0.125em 1.5em;
   border-radius: 100vmax;
   text-align: center;
-  margin: 2em auto;
+  margin: 2em auto 1em 0;
   text-decoration: none;
   background-color: black;
   color: var(--clr-white);
-  
+  font-size: var(--clamp-small);
+  box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
+  -moz-box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
+  transition: transform 250 ease-in;
+}
+.routes__link:hover,
+.routes__link:focus-visible {
+  transform: scale(1.01);
 }
 
 .hero-img__homepage {
   height: 100%;
   width: 100%;
+}
+
+.hero-img__col {
+  position: relative;
+}
+.hero-img__col::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(165, 42, 4, 0.3);
+  mix-blend-mode: multiply;
 }
 
 /* Nav & header Styles */
@@ -153,27 +174,26 @@ p {
 
 .grid {
   display: grid;
+  gap: 1em;
   align-items: center;
-  justify-content: center;
-}
-
-.home-page__main {
-  margin-block: 10vh;
 }
 
 .gtc-auto {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+
 /* footer */
 
 .footer {
-  min-height: 150px;
+  margin-top: 5em;
 }
 
 .footer__ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 3em;
 }
 
@@ -187,3 +207,5 @@ p {
   transition: color 500ms ease-in-out;
   color: var(--clr-brown);
 }
+
+
