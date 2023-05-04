@@ -50,6 +50,26 @@ p {
   max-width: 30ch;
 }
 
+.waggling {
+  position: relative;
+  animation: slide 2s 3 ease-in-out;
+  color: var(--clr-brown);
+}
+
+@keyframes slide {
+  0%, 100% {
+    top: 0px;
+  }
+  25% {
+    top: 20px;
+  }
+
+  50% {
+    top: -25px;
+  }
+
+}
+
 .hero-img__homepage {
   height: 100%;
   width: 100%;
