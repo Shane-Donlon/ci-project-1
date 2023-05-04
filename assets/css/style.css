@@ -5,6 +5,9 @@
 :root {
   --fs-400: 1rem;
   --fw-regualar: 400;
+  --clr-black: black;
+  --clr-brown: brown;
+  --clr-white: white
 }
 
 body {
@@ -13,12 +16,66 @@ body {
   color: black;
 }
 
-/* reminders */
-.container {
-  width: 80%;
-  max-width: 1200px;
-}
-
 p {
   max-width: 75ch;
 }
+
+/* Nav & header Styles */
+
+.nav-wrapper {
+  max-width: min(100% - 2rem, 1500px);
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 1em;
+}
+.nav__link {
+  --height-transition-time: 500ms;
+  --color-transition-time: var(--height-transition-time);
+  --color-transition-delay: 150ms;
+  --outline-transition-delay: 100ms;
+  --nav-padding: 0.5em;
+  position: relative;
+  color: var(--clr-brown);
+  text-decoration: none;
+  isolation: isolate;
+  padding-inline: var(--nav-padding);
+  outline: 0px solid transparent;
+  transition: outline var(--height-transition-time) ease
+    var(--outline-transition-delay);
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--clr-brown);
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform var(--height-transition-time) ease-in-out,
+    color var(--color-transition-time) ease-in-out
+      var(--color-transition-delay);
+}
+
+.nav__link:hover,
+.nav__link:focus-visible,
+.nav__link:focus::after,
+.nav__link:hover::after {
+  transform-origin: bottom left;
+  transform: scale(1);
+  transition: transform var(--height-transition-time) ease-in-out,
+    color var(--color-transition-time) ease-in-out
+      var(--color-transition-delay),
+    outline var(--height-transition-time) ease-in-out
+      var(--outline-transition-delay);
+  color: var(--clr-white);
+  outline: 2px solid var(--clr-black);
+  border-radius: 1px;
+}
+
+/* Home page main styles */
