@@ -2,12 +2,17 @@
 /* Comment Content        */
 /* ---------------------- */
 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
   --fs-400: 1rem;
   --fw-regualar: 400;
   --clr-black: black;
   --clr-brown: brown;
-  --clr-white: white
+  --clr-white: white;
+
+  --wrapper-smallest: 100% - 2rem;
+  --wrapper-biggest: 1500px;
 }
 
 body {
@@ -16,14 +21,47 @@ body {
   color: black;
 }
 
+.h1 {
+  font-size: clamp(2.5rem, 2.4048rem + 0.4762vw, 3rem);
+}
+
+header,
+main,
+footer {
+  margin-block: 1em;
+}
+
+
 p {
   max-width: 75ch;
+}
+
+.wrapper {
+  max-width: min(var(--wrapper-smallest), var(--wrapper-biggest));
+  margin-inline: auto;
+}
+
+/* home page body style - stick footer to end of page */
+
+.home-page__h1 {
+  font-family: 'Bebas Neue', cursive;
+  max-width: 30ch;
+}
+
+.home-page__body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header-home-page"
+    "main-home-page"
+    "footer-home-page";
 }
 
 /* Nav & header Styles */
 
 .nav-wrapper {
-  max-width: min(100% - 2rem, 1500px);
+  max-width: min(var(--wrapper-smallest), var(--wrapper-biggest));
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -32,6 +70,7 @@ p {
 .nav__ul {
   display: flex;
   gap: 1em;
+  flex-wrap: wrap;
 }
 .nav__link {
   --height-transition-time: 500ms;
@@ -58,8 +97,7 @@ p {
   transform: scale(0);
   transform-origin: bottom right;
   transition: transform var(--height-transition-time) ease-in-out,
-    color var(--color-transition-time) ease-in-out
-      var(--color-transition-delay);
+    color var(--color-transition-time) ease-in-out var(--color-transition-delay);
 }
 
 .nav__link:hover,
@@ -69,8 +107,7 @@ p {
   transform-origin: bottom left;
   transform: scale(1);
   transition: transform var(--height-transition-time) ease-in-out,
-    color var(--color-transition-time) ease-in-out
-      var(--color-transition-delay),
+    color var(--color-transition-time) ease-in-out var(--color-transition-delay),
     outline var(--height-transition-time) ease-in-out
       var(--outline-transition-delay);
   color: var(--clr-white);
@@ -79,3 +116,33 @@ p {
 }
 
 /* Home page main styles */
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.home-page__main {
+  margin-block: auto;
+}
+
+.gtc-auto {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
+/* footer */
+
+.footer {
+min-height: 150px;
+
+}
+
+.footer__ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: min(3em, 1em);
+}
