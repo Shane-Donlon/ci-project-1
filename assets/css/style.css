@@ -57,7 +57,8 @@ p {
 }
 
 @keyframes slide {
-  0%, 100% {
+  0%,
+  100% {
     top: 0px;
   }
   25% {
@@ -67,7 +68,23 @@ p {
   50% {
     top: -25px;
   }
+}
 
+.hero__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.routes__link {
+  margin-inline: auto;
+  padding: 0.125em 1.5em;
+  border-radius: 100vmax;
+  text-align: center;
+  margin: 2em auto;
+  text-decoration: none;
+  background-color: black;
+  color: var(--clr-white);
+  
 }
 
 .hero-img__homepage {
