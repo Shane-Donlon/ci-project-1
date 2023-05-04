@@ -136,13 +136,21 @@ p {
 
 .footer {
 min-height: 150px;
-
+margin: auto;
 }
 
 .footer__ul {
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: min(3em, 1em);
+
+  gap: 3em;
+}
+
+.social-media-icon {
+  font-size: clamp(2.5rem, 2.4048rem + 0.4762vw, 3rem);
+  color: var(--clr-black);
+  transition: color 250ms ease;
+}
+
+.social-media-icon:hover {
+color: var(--clr-brown);
 }
