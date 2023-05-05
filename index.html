@@ -26,9 +26,10 @@
       <!-- screen reader / tab only -->
       <a href="#main" class="visually-hidden">skip to content</a>
       <div class="nav-wrapper">
-        <div class="branding"><a href="index.html" class="branding__link">Walking Group Wexford</a></div>
-
-        <nav class="nav">
+        <div class="branding">
+          <a href="index.html" class="branding__link">Walking Group Wexford</a>
+        </div>
+        <nav class="nav hide-supported">
           <ul class="nav__ul" role="list">
             <li class="nav__li"><a href="#" class="nav__link">Home</a></li>
             <li class="nav__li"><a href="#" class="nav__link">Routes</a></li>
@@ -36,6 +37,20 @@
           </ul>
         </nav>
       </div>
+      
+      <label for="checkbox" class="hamburger-menu unsupported supported">
+        <input type="checkbox" name="checkbox" id="checkbox" class="supported unsupported"/>
+      </label>
+      <aside class="supported unsupported sidebar">
+        <nav class="nav supported">
+          <ul class="nav__ul" role="list">
+            <li class="nav__li"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__li"><a href="#" class="nav__link">Routes</a></li>
+            <li class="nav__li"><a href="#" class="nav__link">Beginners</a></li>
+          </ul>
+        </nav>
+      </aside>
+
     </header>
 
     <main id="main" class="home-page__main">
@@ -46,9 +61,20 @@
               Why not keep your dogs tail
               <span class="waggling">waggling</span> with our walking group
             </h1>
-          <p class="home-page__p">When we brought our puppy home, one of our main priorities was socialisinghim. We started walking in the local area to let him get used to other dogs.</p>
-          <p class="home-page__p">This organicially turned into a walkin group and now we meet regularly with out dog owners to explore the beautiful routes around Wexford</p>
-          <p class="home-page__p">Whether you have an eager pup or are a social senior, you are welcome to waggle along with us</p>
+            <p class="home-page__p">
+              When we brought our puppy home, one of our main priorities was
+              socialising him. We started walking in the local area to let him
+              get used to other dogs.
+            </p>
+            <p class="home-page__p">
+              This organically turned into a walking group and now we meet
+              regularly with other dog owners to explore the beautiful routes
+              around Wexford.
+            </p>
+            <p class="home-page__p">
+              Whether you have an eager pup or are a social senior, you are
+              welcome to waggle along with us.
+            </p>
 
             <a href="routes.html" class="routes__link box-shadow"> Join us</a>
           </div>
