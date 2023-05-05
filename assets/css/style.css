@@ -3,6 +3,8 @@
 /* ---------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 :root {
   --fs-400: 1rem;
@@ -16,13 +18,12 @@
 
   --ff-tertiary: "Bebas Neue", cursive;
   --clamp-large: 2.5rem, 2.4048rem + 0.4762vw, 3rem;
-  --clamp-small: 1.125rem, 1rem + 4vw, 1.5rem;
+  --clamp-small: 1.025rem, 1rem + 2vw, 1.15rem;
+  --clamp-body: 1.5rem, 1.4048rem + 0.4762vw, 2rem;
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 2rem;
-  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .h1 {
@@ -34,7 +35,8 @@ header {
 }
 
 p {
-  max-width: 75ch;
+  max-width: 60ch;
+  font-size: clamp(var(--clamp-small));
 }
 
 .wrapper {
@@ -52,6 +54,11 @@ p {
 .branding {
   font-family: "Bebas Neue", cursive;
   max-width: 30ch;
+}
+
+
+.home-page__p {
+  margin-block: 0.525rem;
 }
 
 .waggling {
@@ -81,19 +88,18 @@ p {
 .routes__link {
   position: relative;
   isolation: isolate;
+  font-size: 1.5rem;
   padding: 0.125em 1.5em;
   border-radius: 100vmax;
   text-align: center;
-  margin: 2em auto 1em 0;
+  margin: 1em auto 1em 0;
   text-decoration: none;
   background-color: black;
   color: var(--clr-white);
-  font-size: var(--clamp-small);
   box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
   -webkit-box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
   overflow: hidden;
-  
 }
 
 .routes__link::after {
@@ -106,9 +112,9 @@ p {
   border-radius: 50%;
   background-color: var(--clr-brown);
   transition: transform 500ms ease-in-out;
-  }
+}
 
-.routes__link:hover::after   {
+.routes__link:hover::after {
   transform: scale(50);
   border: transparent;
 }
@@ -137,6 +143,11 @@ p {
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
+  align-items: top;
+}
+
+.branding {
+  font-size: 2.5rem;
 }
 
 .nav__ul {
@@ -145,9 +156,9 @@ p {
   flex-wrap: wrap;
 }
 .nav__link {
-  --height-transition-time: 250ms;
+  --height-transition-time: 200ms;
   --color-transition-time: var(--height-transition-time);
-  --color-transition-delay: 250ms;
+  --color-transition-delay: 200ms;
   --outline-transition-delay: 50ms;
   --nav-padding: 0.5em;
   position: relative;
@@ -155,6 +166,8 @@ p {
   text-decoration: none;
   isolation: isolate;
   padding-inline: var(--nav-padding);
+  font-size: 1.5rem;
+  height: 100%;
 }
 
 .nav__link::after {
@@ -197,9 +210,9 @@ p {
 /* footer */
 
 .footer {
-  margin-top: 5em;
+  margin-top: 8em;
   background-color: var(--clr-brown);
-  padding-block: 1em;
+  padding-block: 3em;
 }
 
 .footer__ul {
