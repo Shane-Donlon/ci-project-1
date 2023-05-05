@@ -3,8 +3,7 @@
 /* ---------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
   --fs-400: 1rem;
@@ -23,7 +22,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .h1 {
@@ -32,6 +31,7 @@ body {
 
 header {
   margin-block: 1em;
+  grid-area: "header-home-page";
 }
 
 p {
@@ -46,8 +46,20 @@ p {
 
 /* home page body style - stick footer to end of page */
 
+.home-page__body {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header-home-page"
+    "main-home-page"
+    "footer-home-page";
+}
+
 .home-page__main {
-  margin-top: 13vh;
+  grid-area: "main-home-page";
+  align-self: center;
 }
 
 .home-page__h1,
@@ -55,7 +67,6 @@ p {
   font-family: "Bebas Neue", cursive;
   max-width: 30ch;
 }
-
 
 .home-page__p {
   margin-block: 0.525rem;
@@ -89,6 +100,7 @@ p {
   position: relative;
   isolation: isolate;
   font-size: 1.5rem;
+  font-weight: 600;
   padding: 0.125em 1.5em;
   border-radius: 100vmax;
   text-align: center;
@@ -114,7 +126,8 @@ p {
   transition: transform 500ms ease-in-out;
 }
 
-.routes__link:hover::after {
+.routes__link:hover::after,
+.routes__link:focus-visible::after {
   transform: scale(50);
   border: transparent;
 }
@@ -149,7 +162,10 @@ p {
 .branding {
   font-size: 2.5rem;
 }
-
+.branding__link {
+  text-decoration: none;
+  color: var(--clr-black);
+}
 .nav__ul {
   display: flex;
   gap: 1em;
@@ -167,6 +183,7 @@ p {
   isolation: isolate;
   padding-inline: var(--nav-padding);
   font-size: 1.5rem;
+  font-weight: 600;
   height: 100%;
 }
 
@@ -210,7 +227,8 @@ p {
 /* footer */
 
 .footer {
-  margin-top: 8em;
+  grid-area: "footer-home-page";
+  margin-top: 0;
   background-color: var(--clr-brown);
   padding-block: 3em;
 }
