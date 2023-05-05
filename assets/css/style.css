@@ -8,10 +8,10 @@
   --fs-400: 1rem;
   --fw-regualar: 400;
   --clr-black: black;
-  --clr-brown: brown;
+  --clr-brown: #8d4e12;
   --clr-white: white;
 
-  --wrapper-smallest: 100% - 2rem;
+  --wrapper-smallest: 100% - 3rem;
   --wrapper-biggest: 1500px;
 
   --ff-tertiary: "Bebas Neue", cursive;
@@ -45,7 +45,7 @@ p {
 /* home page body style - stick footer to end of page */
 
 .home-page__main {
-  margin-top: 15vh;
+  margin-top: 13vh;
 }
 
 .home-page__h1,
@@ -79,6 +79,8 @@ p {
 }
 
 .routes__link {
+  position: relative;
+  isolation: isolate;
   padding: 0.125em 1.5em;
   border-radius: 100vmax;
   text-align: center;
@@ -87,14 +89,28 @@ p {
   background-color: black;
   color: var(--clr-white);
   font-size: var(--clamp-small);
-  box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
-  -webkit-box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
-  -moz-box-shadow: 2px 12px 14px 3px rgba(0,0,0,0.45);
-  transition: transform 250 ease-in;
+  box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  
 }
-.routes__link:hover,
-.routes__link:focus-visible {
-  transform: scale(1.01);
+
+.routes__link::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  width: 10%;
+  aspect-ratio: 1;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: var(--clr-brown);
+  transition: transform 500ms ease-in-out;
+  }
+
+.routes__link:hover::after   {
+  transform: scale(50);
+  border: transparent;
 }
 
 .hero-img__homepage {
@@ -128,19 +144,16 @@ p {
   flex-wrap: wrap;
 }
 .nav__link {
-  --height-transition-time: 500ms;
+  --height-transition-time: 250ms;
   --color-transition-time: var(--height-transition-time);
-  --color-transition-delay: 150ms;
-  --outline-transition-delay: 100ms;
+  --color-transition-delay: 250ms;
+  --outline-transition-delay: 50ms;
   --nav-padding: 0.5em;
   position: relative;
   color: var(--clr-brown);
   text-decoration: none;
   isolation: isolate;
   padding-inline: var(--nav-padding);
-  outline: 0px solid transparent;
-  transition: outline var(--height-transition-time) ease
-    var(--outline-transition-delay);
 }
 
 .nav__link::after {
@@ -148,6 +161,7 @@ p {
   position: absolute;
   inset: 0;
   z-index: -1;
+  border-radius: 5px;
   background-color: var(--clr-brown);
   transform: scale(0);
   transform-origin: bottom right;
@@ -162,12 +176,9 @@ p {
   transform-origin: bottom left;
   transform: scale(1);
   transition: transform var(--height-transition-time) ease-in-out,
-    color var(--color-transition-time) ease-in-out var(--color-transition-delay),
-    outline var(--height-transition-time) ease-in-out
-      var(--outline-transition-delay);
+    color var(--color-transition-time) ease-in-out var(--color-transition-delay);
   color: var(--clr-white);
-  outline: 2px solid var(--clr-black);
-  border-radius: 1px;
+  outline: none;
 }
 
 /* Home page main styles */
@@ -182,11 +193,12 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-
 /* footer */
 
 .footer {
   margin-top: 5em;
+  background-color: var(--clr-brown);
+  padding-block: 1em;
 }
 
 .footer__ul {
@@ -199,13 +211,11 @@ p {
 
 .social-media-icon {
   font-size: clamp(2.5rem, 1.4048rem + 0.4762vw, 3rem);
-  color: var(--clr-black);
+  color: var(--clr-white);
   transition: color 500ms ease-in-out;
 }
 
 .social-media-icon:hover {
   transition: color 500ms ease-in-out;
-  color: var(--clr-brown);
+  color: var(--clr-black);
 }
-
-
