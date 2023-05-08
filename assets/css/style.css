@@ -26,9 +26,9 @@
 }
 
 
+
 body {
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif;}
 
 .h1 {
   font-size: clamp(var(--clamp-large));
@@ -171,11 +171,15 @@ p {
   text-decoration: none;
   color: var(--clr-black);
 }
+
+
 .nav__ul {
   display: flex;
   gap: 1em;
   flex-wrap: wrap;
 }
+
+
 .nav__link {
   --height-transition-time: 200ms;
   --color-transition-time: var(--height-transition-time);
@@ -216,6 +220,9 @@ p {
   color: var(--clr-white);
   outline: none;
 }
+
+
+
 
 /* Home page main styles */
 
@@ -295,6 +302,7 @@ p {
       top: var(--hamburger-margin-top);
       right: var(--hamburger-margin);
       z-index: 2;
+      isolation: isolate;
       cursor: pointer;
     }
 
@@ -322,7 +330,9 @@ p {
     .hamburger-menu input:checked {
       width: 0;
       opacity: 0;
+
     }
+    
     .hamburger-menu:has(input:checked)::before {
       rotate: 45deg;
       width: var(--x-width);
@@ -342,9 +352,10 @@ p {
     }
 
     .sidebar {
-      transition: translate var(--hamburger-animation-time);
-      translate: -100%;
-      padding: 0.5rem 1rem;
+      margin-top: 3rem;
+      transition: translate var(--hamburger-animation-time), height 300ms ease-in-out;
+      translate: -300%;
+      padding-inline:  1rem;
       padding-top: calc(
         var(--hamburger-height) + var(--hamburger-margin) + 1rem
       );
@@ -356,7 +367,7 @@ p {
     }
     .hamburger-menu:has(input:checked) + .sidebar {
       translate: 0%;
-      min-height: 100vh;
+      height: 100vh;
     }
 
     .nav__link {
