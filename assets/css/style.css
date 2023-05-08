@@ -280,6 +280,8 @@ strong {
   text-decoration: underline;
 }
 
+.section-routes abbr { text-decoration-color:var(--clr-white) ;}
+
 section:nth-child(even) {
   margin-top: 1em;
   position: relative;
@@ -325,7 +327,8 @@ section:nth-child(even)::after {
     .supported {
       display: flex;
       flex-direction: column;
-      place-items: end;
+      place-items: center;
+
     }
 
     .hamburger-menu {
