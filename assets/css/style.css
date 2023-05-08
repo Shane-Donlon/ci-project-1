@@ -220,11 +220,35 @@ p {
 /* Routes page */
 .flex {
   display: flex;
-  gap: 2em;
   flex-wrap: wrap-reverse;
-  margin-top: 2em;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
+.routes__h2 {
+  margin-block: 2em 1em;
+  text-align: center;
+  font-size: clamp(var(--clamp-body));
+}
+
+.routes__li {
+  list-style: none;
+}
+
+
+.routes-card {
+  font-size: 1.25em;
+}
+
+.routes__img > img {
+  min-height: 200px;
+  width: 100%;
+}
+
+.routes__span {
+  font-weight: 600;
+  margin-right:0.5em;
+}
 
 
 @media (width < 500px) {
