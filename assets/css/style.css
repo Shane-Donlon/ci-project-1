@@ -76,25 +76,6 @@ p {
   margin-block: 0.525rem;
 }
 
-.waggling {
-  position: relative;
-  animation: slide 2s 3 ease-in-out;
-  color: var(--clr-brown);
-}
-
-@keyframes slide {
-  0%,
-  100% {
-    top: 0px;
-  }
-  25% {
-    top: 20px;
-  }
-
-  50% {
-    top: -25px;
-  }
-}
 
 .hero__text {
   display: grid;
@@ -205,6 +186,9 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.waggling{
+  color: var(--clr-brown);
+}
 /* footer */
 
 .footer {
@@ -234,9 +218,6 @@ p {
 }
 
 @media (width < 500px) {
-  .nav__link::after {
-    transform: scale(0);
-  }
 
   @supports (selector(:has(+ *))) {
     :root {
@@ -375,4 +356,25 @@ p {
     color: var(--clr-white);
     outline: none;
   }
+
+  
+.waggling {
+  position: relative;
+  animation: slide 2s 3 ease-in-out;
+  color: var(--clr-brown);
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25% {
+    top: 20px;
+  }
+
+  50% {
+    top: -25px;
+  }
+}
 }
