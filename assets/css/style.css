@@ -232,6 +232,11 @@ p {
   align-items: center;
 }
 
+.routes__h1 {
+  font-family: var(--ff-secondary);
+  font-size: clamp(var(--clamp-large));
+}
+
 .routes__h2,
 .rules__h2 {
   margin-block: 2em 1em;
@@ -260,8 +265,19 @@ p {
 }
 
 .walk-rules__ul {
- outline: 2px solid red;
+ list-style-type: none;
  text-align: justify;
+ font-size: clamp(var(--clamp-small));
+}
+
+.rules__p {
+ margin-inline:auto ;
+ margin-bottom: 1.5em;
+}
+
+strong {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media (width < 500px) {
