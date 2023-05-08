@@ -217,7 +217,6 @@ p {
   color: var(--clr-black);
 }
 
-
 /* Routes page */
 .flex {
   display: flex;
@@ -225,9 +224,6 @@ p {
   flex-wrap: wrap-reverse;
   margin-top: 2em;
 }
-
-
-
 
 
 
