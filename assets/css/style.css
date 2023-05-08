@@ -280,6 +280,27 @@ strong {
   text-decoration: underline;
 }
 
+section:nth-child(even) {
+  margin-top: 1em;
+  position: relative;
+  padding-block: 0.5em 2em;
+}
+
+section:nth-child(even)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--clr-brown);
+
+  z-index: -1;
+  transform: skewY(5deg);
+  mix-blend-mode: difference;
+}
+
+.section__rules {
+  margin-bottom: 2em;
+}
+
 @media (width < 500px) {
   @supports (selector(:has(+ *))) {
     :root {
