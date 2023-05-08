@@ -61,8 +61,8 @@
       </div>
     </header>
     <main id="main">
-      <div class="wrapper">
-        <section class="section-intro__routes">
+      <section class="section-intro__routes">
+        <div class="wrapper">
           <h1 class="h1">Routes & Rules</h1>
           <p class="p routes__p">
             Thank you for considering to join our group, we always delighted to
@@ -71,9 +71,12 @@
           <p class="p routes__p">
             Further details of our rotes, times are available below
           </p>
-        </section>
-        <section class="section-routes">
-            <h2 class="routes__h2 h2">Tintern Abbey Route</h2>
+        </div>
+      </section>
+
+      <section class="section-routes">
+        <div class="wrapper">
+          <h2 class="routes__h2 h2">Tintern Abbey Route</h2>
           <div class="flex">
             <div class="routes__img">
               <img
@@ -81,20 +84,26 @@
                 alt="tintern abbey route"
               />
             </div>
-
             <div class="routes__text">
               <div class="routes-card">
                 <ul class="routes__ul">
                   <li class="routes__li">
-                    <span class="routes__span">Date:</span> 2nd Sunday of every month
+                    <span class="routes__span">Date:</span> 2nd Sunday of every
+                    month
                   </li>
-                  <li class="routes__li"><span class="routes__span">Time:</span> 10:00 AM</li>
-
                   <li class="routes__li">
-                    <span class="routes__span">Distance:</span> 3.2 <abbr title="Kilometers">KM</abbr>
+                    <span class="routes__span">Time:</span> 10:00 AM
                   </li>
-                  <li class="routes__li"><span class="routes__span">Difficulty:</span> Medium</li>
-                  <li class="routes__li"><span class="routes__span">Accessibility:</span> Poor</li>
+                  <li class="routes__li">
+                    <span class="routes__span">Distance:</span> 3.2
+                    <abbr title="Kilometers">KM</abbr>
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Difficulty:</span> Medium
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Accessibility:</span> Poor
+                  </li>
                   <li class="routes__li">
                     <span class="routes__span">Meeting Location:</span> Tintern
                     <abbr title="Office of Public Works">OPW</abbr> building
@@ -110,22 +119,29 @@
               <div class="routes-card">
                 <ul class="routes__ul">
                   <li class="routes__li">
-                    <span class="routes__span">Date:</span> 1st Saturday of every month
+                    <span class="routes__span">Date:</span> 1st Saturday of
+                    every month
                   </li>
-                  <li class="routes__li"><span class="routes__span">Time:</span> 09:00 AM</li>
-
                   <li class="routes__li">
-                    <span class="routes__span">Distance:</span> 4.6 <abbr title="Kilometers">KM</abbr>
+                    <span class="routes__span">Time:</span> 09:00 AM
                   </li>
-                  <li class="routes__li"><span class="routes__span">Difficulty:</span> Low</li>
-                  <li class="routes__li"><span class="routes__span">Accessibility:</span> Good</li>
                   <li class="routes__li">
-                    <span class="routes__span">Meeting Location:</span> Bannow Bay Entrance
+                    <span class="routes__span">Distance:</span> 4.6
+                    <abbr title="Kilometers">KM</abbr>
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Difficulty:</span> Low
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Accessibility:</span> Good
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Meeting Location:</span> Bannow
+                    Bay Entrance
                   </li>
                 </ul>
               </div>
             </div>
-
             <div class="routes__img">
               <img
                 src="assets/images/bannow-route.png"
@@ -137,36 +153,85 @@
           <h2 class="routes__h2 h2">South Wexford Coastal Path</h2>
           <div class="flex">
             <div class="routes__img">
-              <img
-                src="assets/images/coastal-route.jpg"
-                alt="coastal route"
-              />
+              <img src="assets/images/coastal-route.jpg" alt="coastal route" />
             </div>
-
             <div class="routes__text">
               <div class="routes-card">
                 <ul class="routes__ul">
                   <li class="routes__li">
-                    <span class="routes__span">Date:</span>3rd Sunday of every month
+                    <span class="routes__span">Date:</span>3rd Sunday of every
+                    month
                   </li>
-                  <li class="routes__li"><span class="routes__span">Time:</span> 09:00 AM</li>
-
                   <li class="routes__li">
-                    <span class="routes__span">Distance:</span> 6.8 <abbr title="Kilometers">KM</abbr>
+                    <span class="routes__span">Time:</span> 09:00 AM
                   </li>
-                  <li class="routes__li"><span class="routes__span">Difficulty:</span> Hard</li>
-                  <li class="routes__li"><span class="routes__span">Accessibility:</span>Ideal</li>
                   <li class="routes__li">
-                    <span class="routes__span">Meeting Location:</span> Path Entrance
+                    <span class="routes__span">Distance:</span> 6.8
+                    <abbr title="Kilometers">KM</abbr>
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Difficulty:</span> Hard
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Accessibility:</span>Ideal
+                  </li>
+                  <li class="routes__li">
+                    <span class="routes__span">Meeting Location:</span> Path
+                    Entrance
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
-
-        </section>
+      <section class="section__rules"><div class="wrapper">
+          
+          
+            <h2 class="rules__h2 h2">The rules of walks are very simple</h2>
+            <ul class="walk-rules__ul">
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                All dogs must be on leashes
+              </li>
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                We do walk in public areas, so please be kind to non dog walkers as
+                this can be intimidating
+              </li>
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                Clean-up after your pooch, it is never fun stepping in poo
+                <i class="fas fa-poop"></i>
+              </li>
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                Newcomers are always welcome
+              </li>
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                Please bring water for you and your pooch
+              </li>
+              <li class="walk-rules__li">
+                <span class="walk-rules__span"
+                  ><i class="fa-solid fa-dog"></i
+                ></span>
+                Have fun
+              </li>
+            </ul>
       </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="wrapper">
