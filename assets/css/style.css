@@ -30,6 +30,7 @@ body {
 }
 
 .h1 {
+  font-family: var(--ff-secondary);
   font-size: clamp(var(--clamp-large));
 }
 
@@ -66,9 +67,9 @@ p {
   align-self: center;
 }
 
-.h1 .branding {
+.h1,
+.branding {
   font-family: var(--ff-secondary);
-  max-width: 30ch;
 }
 
 .home-page__p {
@@ -290,6 +291,7 @@ section:nth-child(even) {
   margin-top: 1em;
   position: relative;
   padding-block: 1em 5em;
+  color: var(--clr-white);
 }
 
 section:nth-child(even)::after {
@@ -305,12 +307,25 @@ section:nth-child(even)::after {
 
 .section__rules {
   padding-bottom: 2em;
-  color: var(--clr-white);
 }
 
 .section__routes {
   margin-bottom: 3em;
 }
+
+/* Beginners Page */
+.section-beginners__intro {
+  margin-block: 4em;
+}
+
+
+
+.beginners__h3 {
+  font-size: clamp(var(--clamp-small));
+  padding-top: 2em;
+}
+
+/* media queries support queries */
 @media (width < 500px) {
   @supports (selector(:has(+ *))) {
     :root {
