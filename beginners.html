@@ -109,10 +109,35 @@
         </div>
       </section>
 
-      <section class="beginners__newletter">
+      <section class="beginners-section__newletter">
         <div class="wrapper">
           <fieldset class="fieldset">
             <legend class="legend">Sign up to our newletter</legend>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <label for="full-name" class="label news-label">Full Name:</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  class="input news-input"
+                  name="news-full-name"
+                  required
+                  placeholder="Jane Doe"
+                />
+  
+                <label for="news-email" class="label news-label"
+                  >Email Address:</label
+                >
+                <input
+                  type="email"
+                  id="news-email"
+                  class="input news-input"
+                  name="news-email"
+                  required
+                  placeholder="jane.doe@janedoemail.com"
+                />
+                <button type="submit" class="btn news-btn">Sign me up</button>
+                <button type="reset" class="btn news-btn">Reset Form Data</button>
+              </form>
           </fieldset>
         </div>
       </section>

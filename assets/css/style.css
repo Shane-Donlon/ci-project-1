@@ -325,6 +325,11 @@ section:nth-child(even)::after {
   padding-top: 2em;
 }
 
+.beginners-section__newletter {
+  margin-block: 3em;
+  min-height: 200px;
+}
+
 /* media queries support queries */
 @media (width < 500px) {
   @supports (selector(:has(+ *))) {
