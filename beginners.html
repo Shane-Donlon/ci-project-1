@@ -76,7 +76,7 @@
         <div class="wrapper">
           <div class="flex section-beginners__flex">
             <div class="beginners-section__column">
-              <h3 class="h3 beginners__h3">We recommend this video first</h3>
+              <h2 class="h3 beginners__h3">We recommend this video first</h2>
               <p class="p">
                 This video is to help provide best practices on your walks
               </p>
@@ -90,9 +90,9 @@
               ></iframe>
             </div>
             <div class="beginners-section__column">
-              <h3 class="h3 beginners__h3">
+              <h2 class="h3 beginners__h3">
                 This video is if you are having issues with pulling on the leash
-              </h3>
+              </h2>
               <p class="p">
                 We understand that your dog pulling on the leash can lead to
                 walks to you do not enjoy. Check out the below video for some
@@ -113,31 +113,37 @@
 
       <section class="beginners-section__newletter">
         <div class="wrapper">
-            <div class="col">
-                We offer a weekly newsletter to help provide tips and tricks on walking your puppy.
-            </div>
-          <fieldset class="fieldset">
-            <legend class="legend">Sign up to our newletter</legend>
-            <form
-              action="https://formdump.codeinstitute.net/"
-              method="post"
-              class="form"
-            >
-              <div class="form-wrapper">
-                <label for="full-name" class="label news-label"
-                  >Full Name:</label
-                >
-                <input
-                  type="text"
-                  id="full-name"
-                  class="input news-input"
-                  name="news-full-name"
-                  required
-                  placeholder="Jane Doe"
-                />
-              </div>
+          <div class="col">
+            <h2 class="h2 newsletter__h2">Our Newsletter</h2>
+            <p class="p newsletter__p">
+              We offer a weekly newsletter to help provide tips and tricks on
+              walking your puppy. Included in our newsletters are food
+              businesses all over Ireland that allow you and your doggy to dine
+              together indoors.
+            </p>
+          </div>
 
-              <div class="form-wrapper">
+          <div class="form-wrapper">
+            <fieldset class="fieldset">
+              <legend class="legend">Sign up to our newletter</legend>
+              <form
+                action="https://formdump.codeinstitute.net/"
+                method="post"
+                class="form"
+              >
+                <div class="form-grid">
+                  <label for="full-name" class="label news-label"
+                    >Full Name:</label
+                  >
+                  <input
+                    type="text"
+                    id="full-name"
+                    class="input news-input"
+                    name="news-full-name"
+                    required
+                    placeholder="Jane Doe"
+                  />
+
                   <label for="news-email" class="label news-label"
                     >Email Address:</label
                   >
@@ -149,12 +155,15 @@
                     required
                     placeholder="jane.doe@janedoemail.com"
                   />
-              </div>
-    
+
                   <button type="submit" class="btn news-btn">Sign me up</button>
-                  <button type="reset" class="btn news-btn">Reset Form Data</button>
-            </form>
-          </fieldset>
+                  <button type="reset" class="btn news-btn">
+                    Reset Form Data
+                  </button>
+                </div>
+              </form>
+            </fieldset>
+          </div>
         </div>
       </section>
     </main>

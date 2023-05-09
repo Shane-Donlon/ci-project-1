@@ -244,7 +244,8 @@ p {
 }
 
 .routes__h2,
-.rules__h2 {
+.rules__h2,
+.newsletter__h2 {
   margin-block: 2em 1em;
   text-align: center;
   font-size: 2rem;
@@ -338,9 +339,26 @@ iframe {
   border: 1px solid white;
   }
 
-.fieldset {
-  max-width: max-content;
+  .form-wrapper {
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 2em;
+  }
+
+
+
+.newsletter__p {
+  margin-inline: auto;
 }
+
+.legend {
+  margin-inline: auto;
+  padding-inline: 1em;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+
 
 /* media queries support queries */
 @media (width < 500px) {
