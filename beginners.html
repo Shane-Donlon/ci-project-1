@@ -74,14 +74,14 @@
 
       <section class="section-beginners__video">
         <div class="wrapper">
-          <div class="flex ">
-            <div class="col">
-                <h3 class="h3 beginners__h3">We recommend this video first</h3>
-                <p class="p">This video is to help provide best practices on your walks</p>
+          <div class="flex section-beginners__flex">
+            <div class="beginners-section__column">
+              <h3 class="h3 beginners__h3">We recommend this video first</h3>
+              <p class="p">
+                This video is to help provide best practices on your walks
+              </p>
               <iframe
-              title="Tips and tricks when beginning dog walking"
-                width="560"
-                height="315"
+                title="Tips and tricks when beginning dog walking"
                 src="https://www.youtube-nocookie.com/embed/DgWGuOr8-Ro"
                 title="YouTube video player"
                 frameborder="0"
@@ -89,15 +89,17 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <div class="col">
-                <h3 class="h3 beginners__h3">This video is if you are having issues with pulling on the leash</h3>
-                <p class="p">
-                    We understand that your dog pulling on the leash can lead to walks to you do not enjoy. Check out the below video for some guidance
-                  </p>
+            <div class="beginners-section__column">
+              <h3 class="h3 beginners__h3">
+                This video is if you are having issues with pulling on the leash
+              </h3>
+              <p class="p">
+                We understand that your dog pulling on the leash can lead to
+                walks to you do not enjoy. Check out the below video for some
+                guidance
+              </p>
               <iframe
-              title="Tips and tricks when your dog is pulling too much"
-              width="560"
-                height="315"
+                title="Tips and tricks when your dog is pulling too much"
                 src="https://www.youtube-nocookie.com/embed/D8h194DZ3XE"
                 title="YouTube video player"
                 frameborder="0"
@@ -111,10 +113,20 @@
 
       <section class="beginners-section__newletter">
         <div class="wrapper">
+            <div class="col">
+                We offer a weekly newsletter to help provide tips and tricks on walking your puppy.
+            </div>
           <fieldset class="fieldset">
             <legend class="legend">Sign up to our newletter</legend>
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <label for="full-name" class="label news-label">Full Name:</label>
+            <form
+              action="https://formdump.codeinstitute.net/"
+              method="post"
+              class="form"
+            >
+              <div class="form-wrapper">
+                <label for="full-name" class="label news-label"
+                  >Full Name:</label
+                >
                 <input
                   type="text"
                   id="full-name"
@@ -123,21 +135,25 @@
                   required
                   placeholder="Jane Doe"
                 />
-  
-                <label for="news-email" class="label news-label"
-                  >Email Address:</label
-                >
-                <input
-                  type="email"
-                  id="news-email"
-                  class="input news-input"
-                  name="news-email"
-                  required
-                  placeholder="jane.doe@janedoemail.com"
-                />
-                <button type="submit" class="btn news-btn">Sign me up</button>
-                <button type="reset" class="btn news-btn">Reset Form Data</button>
-              </form>
+              </div>
+
+              <div class="form-wrapper">
+                  <label for="news-email" class="label news-label"
+                    >Email Address:</label
+                  >
+                  <input
+                    type="email"
+                    id="news-email"
+                    class="input news-input"
+                    name="news-email"
+                    required
+                    placeholder="jane.doe@janedoemail.com"
+                  />
+              </div>
+    
+                  <button type="submit" class="btn news-btn">Sign me up</button>
+                  <button type="reset" class="btn news-btn">Reset Form Data</button>
+            </form>
           </fieldset>
         </div>
       </section>
