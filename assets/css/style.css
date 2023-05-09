@@ -76,6 +76,10 @@ p {
   margin-block: 0.525rem;
 }
 
+.home-page__h1 {
+  max-width: 30ch;
+}
+
 .hero__text {
   display: grid;
 }
