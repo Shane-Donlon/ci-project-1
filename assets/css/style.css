@@ -10,7 +10,8 @@
   --fw-regualar: 400;
   --clr-white: white;
   --clr-black: black;
-  --clr-brown: #8d4e12;
+  /* --clr-brown: #8d4e12; */
+  --clr-brown: #e3800c;
   --clr-nav-link: var(--clr-brown);
   --wrapper-smallest: 100% - 3rem;
   --wrapper-biggest: 1500px;
@@ -66,8 +67,7 @@ p {
   align-self: center;
 }
 
-.h1
-.branding {
+.h1 .branding {
   font-family: var(--ff-secondary);
   max-width: 30ch;
 }
@@ -145,6 +145,7 @@ p {
 
 .branding {
   font-size: 2.5rem;
+  font-family: var(--ff-secondary);
 }
 .branding__link {
   text-decoration: none;
@@ -219,6 +220,7 @@ p {
 /* Routes page */
 .section-intro__routes {
   text-align: center;
+  margin-block: 3em;
 }
 
 .routes__p {
@@ -241,8 +243,7 @@ p {
 .rules__h2 {
   margin-block: 2em 1em;
   text-align: center;
-  font-size: clamp(var(--clamp-body));
-  text-decoration: underline;
+  font-size: 2rem;
   font-family: var(--ff-secondary);
 }
 
@@ -255,8 +256,10 @@ p {
 }
 
 .routes__img > img {
-  min-height: 200px;
-  width: 100%;
+  --img-height: 200px;
+  --img-width: var(var(--img-height));
+  min-height: var(--img-height);
+  min-width: var(--img-width);
 }
 
 .routes__span {
@@ -265,14 +268,14 @@ p {
 }
 
 .walk-rules__ul {
- list-style-type: none;
- text-align: justify;
- font-size: clamp(var(--clamp-small));
+  list-style-type: none;
+  text-align: justify;
+  font-size: clamp(var(--clamp-small));
 }
 
 .rules__p {
- margin-inline:auto ;
- margin-bottom: 1.5em;
+  margin-inline: auto;
+  margin-bottom: 1.5em;
 }
 
 strong {
@@ -280,12 +283,14 @@ strong {
   text-decoration: underline;
 }
 
-.section-routes abbr { text-decoration-color:var(--clr-white) ;}
+.section-routes abbr {
+  text-decoration-color: var(--clr-white);
+}
 
 section:nth-child(even) {
   margin-top: 1em;
   position: relative;
-  padding-block: 0.5em 2em;
+  padding-block: 1em 5em;
 }
 
 section:nth-child(even)::after {
@@ -300,9 +305,13 @@ section:nth-child(even)::after {
 }
 
 .section__rules {
-  margin-bottom: 2em;
+  padding-bottom: 2em;
+  color: var(--clr-white);
 }
 
+.section__routes {
+  margin-bottom: 3em;
+}
 @media (width < 500px) {
   @supports (selector(:has(+ *))) {
     :root {
@@ -328,7 +337,6 @@ section:nth-child(even)::after {
       display: flex;
       flex-direction: column;
       place-items: center;
-
     }
 
     .hamburger-menu {
