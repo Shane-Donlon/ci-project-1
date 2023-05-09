@@ -337,6 +337,11 @@ iframe {
   height: 350px;
   border: 1px solid white;
   }
+
+.fieldset {
+  max-width: max-content;
+}
+
 /* media queries support queries */
 @media (width < 500px) {
   @supports (selector(:has(+ *))) {
