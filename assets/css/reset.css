@@ -91,22 +91,12 @@ select {
 
 /* screen reader only / sr only  */
 .visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
-  width: 1px;
-}
-
-/* screen reader only / sr only  */
-.sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
   height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
   width: 1px;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px,1px,1px,1px);
+  clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+  -webkit-clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+  overflow: hidden!important;
 }
