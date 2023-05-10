@@ -81,10 +81,8 @@
                 This video is to help provide best practices on your walks
               </p>
               <iframe
-                title="Tips and tricks when beginning dog walking"
+                title="Tips and tricks when beginning dog walking YouTube video player"
                 src="https://www.youtube-nocookie.com/embed/DgWGuOr8-Ro"
-                title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -99,10 +97,8 @@
                 guidance
               </p>
               <iframe
-                title="Tips and tricks when your dog is pulling too much"
+                title="Tips and tricks when your dog is pulling too much YouTube video player"
                 src="https://www.youtube-nocookie.com/embed/D8h194DZ3XE"
-                title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -111,7 +107,7 @@
         </div>
       </section>
 
-      <section class="beginners-section__newletter">
+      <section class="beginners-section__newsletter">
         <div class="wrapper">
           <div class="col">
             <h2 class="h2 newsletter__h2">Our Newsletter</h2>
@@ -125,41 +121,61 @@
 
           <div class="form-wrapper">
             <fieldset class="fieldset">
-              <legend class="legend">Sign up to our newletter</legend>
+              <legend class="legend">Sign up to our newsletter</legend>
               <form
                 action="https://formdump.codeinstitute.net/"
                 method="post"
                 class="form"
+                autocomplete="on"
               >
                 <div class="form-grid">
-                  <label for="full-name" class="label news-label"
-                    >Full Name:</label
-                  >
-                  <input
-                    type="text"
-                    id="full-name"
-                    class="input news-input"
-                    name="news-full-name"
-                    required
-                    placeholder="Jane Doe"
-                  />
+    
+                      <label for="first-name" class="label news-label"
+                        >First Name:</label
+                      >
+                      <input
+                        type="text"
+                        id="full-name"
+                        class="input news-input"
+                        name="news-first-name"
+                        required
+                        placeholder="Jane"
+                        autocomplete="given-name"
+                      />
+    
+                      <label for="surname" class="label news-label">Surname:</label>
+                      <input
+                        type="text"
+                        id="surname"
+                        class="input news-input"
+                        name="news-surname-name"
+                        required
+                        placeholder="Doe"
+                        autocomplete="family-name"
+                      />
 
-                  <label for="news-email" class="label news-label"
-                    >Email Address:</label
-                  >
-                  <input
-                    type="email"
-                    id="news-email"
-                    class="input news-input"
-                    name="news-email"
-                    required
-                    placeholder="jane.doe@janedoemail.com"
-                  />
+     
 
-                  <button type="submit" class="btn news-btn">Sign me up</button>
-                  <button type="reset" class="btn news-btn">
-                    Reset Form Data
-                  </button>
+    
+                        <label for="news-email" class="label news-label"
+                          >Email Address:</label
+                        >
+                        <input
+                          type="email"
+                          id="news-email"
+                          class="input news-input"
+                          name="news-email"
+                          required
+                          placeholder="jane.doe@jdmail.com"
+                          autocomplete="email"
+                        />
+
+                        <button type="submit" class="btn news-btn">
+                            <i class="fa-solid fa-paw"></i> Sign me up
+                        </button>
+                        <button type="reset" class="btn news-btn">
+                            <i class="fa-solid fa-paw"></i>  Reset Form
+                        </button>
                 </div>
               </form>
             </fieldset>
