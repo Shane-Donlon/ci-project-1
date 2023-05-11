@@ -570,6 +570,12 @@ input:required {
   }
 }
 
+::selection {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+
 @media (width > 800px) {
   .nav-wrapper {
     align-items: center;
