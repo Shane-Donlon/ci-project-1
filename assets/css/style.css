@@ -180,7 +180,7 @@ header {
 .grid {
   display: grid;
   gap: 1em;
-  align-items: start;
+  align-items: center;
 }
 
 .gtc-auto {
@@ -624,5 +624,30 @@ input:required {
     50% {
       top: -25px;
     }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .routes__link {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+  }
+
+  ::selection {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+  }
+
+  ::placeholder {
+    color: var(--clr-white);
+  }
+
+  .waggling {
+    color: var(--clr-white);
+  }
+
+  .branding__link,
+  .nav__link {
+    color: var(--clr-white);
   }
 }
