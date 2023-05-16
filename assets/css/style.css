@@ -197,7 +197,7 @@ header {
   grid-area: "footer-home-page";
   margin-top: 0;
   background-color: var(--clr-brown);
-  padding-block: 3em;
+  padding-block: 2em;
 }
 
 .footer__ul {
