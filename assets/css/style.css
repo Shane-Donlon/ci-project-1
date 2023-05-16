@@ -546,8 +546,9 @@ input:required {
 
     .sidebar {
       position: absolute;
+      top: 0;
+      left: 0;
       z-index: -1;
-      margin-top: 3rem;
       transition: translate var(--hamburger-animation-time),
         height 300ms ease-in-out;
       translate: -500%;
