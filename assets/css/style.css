@@ -494,7 +494,7 @@ input:required {
       flex-direction: column;
       gap: var(--hamburger-gap);
       width: max-content;
-      position: absolute;
+      position: relative;
       top: var(--hamburger-margin-top);
       right: var(--hamburger-margin);
       z-index: 2;
