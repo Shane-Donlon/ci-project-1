@@ -85,40 +85,6 @@ header {
   display: grid;
 }
 
-.routes__link {
-  position: relative;
-  isolation: isolate;
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding: 0.125em 1.5em;
-  border-radius: 100vmax;
-  text-align: center;
-  margin: 1em auto 1em 0;
-  text-decoration: none;
-  background-color: black;
-  color: var(--clr-white);
-  box-shadow: 6px 8px 5px -4px rgba(0, 0, 0, 0.35);
-  overflow: hidden;
-}
-
-.routes__link::after {
-  content: "";
-  position: absolute;
-  inset: -10px;
-  width: 10%;
-  aspect-ratio: 1 / 1;
-  z-index: -1;
-  border-radius: 50%;
-  background-color: var(--clr-brown);
-  transition: transform 500ms ease-in-out;
-}
-
-.routes__link:hover::after,
-.routes__link:focus-visible::after {
-  transform: scale(50);
-  border: transparent;
-}
-
 .hero-img__homepage {
   height: 100%;
   width: 100%;
@@ -191,6 +157,12 @@ header {
 .waggling {
   color: var(--clr-brown);
 }
+
+.routes__link {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
 /* footer */
 
 .footer {
@@ -644,15 +616,15 @@ input:required {
   .nav__link::after {
     background-color: var(--clr-black);
   }
-  .routes__link {
+  .btn {
     background-color: var(--clr-white);
     color: var(--clr-black);
     transition: color 250ms linear 125ms;
     box-shadow: 6px 8px 5px -4px rgba(255, 255, 255, 0.35);
   }
 
-  .routes__link:hover,
-  .routes__link:focus-visible {
+  .btn:hover,
+  .btn:focus-visible {
     color: white;
   }
 
