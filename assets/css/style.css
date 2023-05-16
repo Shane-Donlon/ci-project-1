@@ -302,10 +302,8 @@ section:nth-child(even)::after {
   position: absolute;
   inset: 0;
   background-color: var(--clr-brown);
-
   z-index: -1;
   transform: skewY(3deg);
-  mix-blend-mode: difference;
 }
 
 .section__rules {
