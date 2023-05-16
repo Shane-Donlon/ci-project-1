@@ -648,7 +648,7 @@ input:required {
   .routes__link {
     background-color: var(--clr-white);
     color: var(--clr-black);
-    transition: color 120ms linear 250ms;
+    transition: color 250ms linear 125ms;
   }
 
   .routes__link:hover,
