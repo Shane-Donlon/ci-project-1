@@ -628,9 +628,23 @@ input:required {
 }
 
 @media (prefers-color-scheme: dark) {
+  header {
+    background-color: var(--clr-brown);
+    padding-block: 1em;
+    margin-top: 0;
+  }
+  .nav__link::after {
+    background-color: var(--clr-black);
+  }
   .routes__link {
     background-color: var(--clr-white);
     color: var(--clr-black);
+    transition: color 120ms linear 250ms;
+  }
+
+  .routes__link:hover,
+  .routes__link:focus-visible {
+    color: white;
   }
 
   ::selection {
