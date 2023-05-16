@@ -27,6 +27,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 
 .h1 {
@@ -317,7 +318,7 @@ section:nth-child(even)::after {
 
 /* Beginners Page */
 .section-beginners__intro {
-  margin-block: 4em 6em;
+  margin-block: 3em 6em;
 }
 
 .section-beginners__flex {
@@ -457,6 +458,10 @@ input:required {
     flex-direction: column;
   }
 
+  .section-beginners__intro {
+    margin-block: 4em 5em;
+  }
+
   @supports (selector(:has(+ *))) {
     :root {
       --bar-width: 60px;
@@ -543,7 +548,7 @@ input:required {
 
     .sidebar {
       position: absolute;
-      z-index: 2;
+      z-index: -1;
       margin-top: 3rem;
       transition: translate var(--hamburger-animation-time),
         height 300ms ease-in-out;
@@ -561,6 +566,7 @@ input:required {
     .hamburger-menu:has(input:checked) + .sidebar {
       translate: 0%;
       height: 100vh;
+      z-index: 2;
     }
 
     .nav__link {
@@ -628,6 +634,9 @@ input:required {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background-color: initial;
+  }
   header {
     background-color: var(--clr-brown);
     padding-block: 1em;
