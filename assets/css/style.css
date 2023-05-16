@@ -97,7 +97,7 @@ header {
   text-decoration: none;
   background-color: black;
   color: var(--clr-white);
-  box-shadow: 2px 12px 14px 3px rgba(0, 0, 0, 0.45);
+  box-shadow: 6px 8px 5px -4px rgba(0, 0, 0, 0.35);
   overflow: hidden;
 }
 
@@ -649,6 +649,7 @@ input:required {
     background-color: var(--clr-white);
     color: var(--clr-black);
     transition: color 250ms linear 125ms;
+    box-shadow: 6px 8px 5px -4px rgba(255, 255, 255, 0.35);
   }
 
   .routes__link:hover,
