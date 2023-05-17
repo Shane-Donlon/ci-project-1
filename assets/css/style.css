@@ -47,7 +47,7 @@ p {
 
 /* home page body style - stick footer to end of page */
 
-.home-page__body {
+.short-page__body {
   display: grid;
   gap: 1em;
   grid-template-columns: 1fr;
@@ -587,7 +587,8 @@ em {
     align-items: center;
   }
 
-  .nav__link::after {
+  .nav__link::after,
+  .current__page::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -644,7 +645,8 @@ em {
     padding-block: 1em;
     margin-top: 0;
   }
-  .nav__link::after {
+  .nav__link::after,
+  .current__page::after {
     background-color: var(--clr-black);
   }
   .btn {
