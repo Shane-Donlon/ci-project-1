@@ -440,12 +440,12 @@ input:required {
   overflow: hidden;
 }
 
-.success__h1 {
-  margin-bottom: auto;
-}
-
 .success__p {
   margin-top: 1em;
+}
+
+em {
+  font-style: italic;
 }
 
 /* media queries support queries */
