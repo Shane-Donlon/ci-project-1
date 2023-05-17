@@ -53,19 +53,23 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    "header-home-page"
-    "main-home-page"
-    "footer-home-page";
+    "header-short-page"
+    "main-short-page"
+    "footer-short-page";
 }
 
-header {
-  margin-block: 1em;
-  grid-area: "header-home-page";
+.short-page__header {
+  padding-block: 1em;
+  grid-area: "header-short-page";
 }
 
-.home-page__main {
-  grid-area: "main-home-page";
+.short-page__main {
+  grid-area: "main-short-page";
   align-self: center;
+}
+
+.short-page__footer {
+  grid-area: "footer-short-page";
 }
 
 .h1,
@@ -423,6 +427,25 @@ input:required {
 
 .btn:hover {
   cursor: pointer;
+}
+
+.success-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.oscar-img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.success__h1 {
+  margin-bottom: auto;
+}
+
+.success__p {
+  margin-top: 1em;
 }
 
 /* media queries support queries */
