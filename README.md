@@ -149,3 +149,9 @@ Below you will find a brief explaination for some of my Symantec HTML decisions 
   <ul><li>The em was used on the success page for a similar reason, I want to set the same emphasis for accessible and sighted users.</li></ul>
 </ol>
 
+
+While the user of multiple H1’s per page is allowed, for accessibility purposes I prefer to err on the side of caution and used 1 H1 per page. 
+As well as with my reset.css all User Agent styling was taken away, this was done intentionally as all fonts are the same, and I do not fall into the “it looks like a H1, so I’ll use a H1” mentality. 
+
+
+
