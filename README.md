@@ -11,6 +11,11 @@
 | [Symantec HTML](#symantec-html) |
 | [Color Scheme](#color-scheme) |
 | [Fonts Used](#fonts) |
+| [Technology Used](#technology-used) |
+
+
+
+
 ## Site Preview
 ![dark mode preview](documentation/assets/site-preview-dark-mode.jpg)
 ![light mode preview](documentation/assets/site-preview-light-mode.jpg)
@@ -190,4 +195,19 @@ A paragraph length was also used to ensure that no head turning is required to r
 Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
 
 
+## Technology Used
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+
+JavaScript was not used on this site, as it was a HTML and CSS only challenge, if JavaScript was allowed for this I would have used an Event Listener and Arrow Function like below to toggle the active class on the hamburger menu
+
+    hamgurgerMenu = document.querySelector(".hamburger-menu");
+    navBar = document.querySelector(".nav");
+
+    hamgurgerMenu.addEventListener("click", () => {
+      navBar.classList.toggle("active");
+    });
+
+- 
 
