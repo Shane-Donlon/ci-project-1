@@ -10,7 +10,7 @@
 | [UX](#ux) |
 | [Symantec HTML](#symantec-html) |
 | [Color Scheme](#color-scheme) |
-
+| [Fonts Used](#fonts) |
 ## Site Preview
 ![dark mode preview](documentation/assets/site-preview-dark-mode.jpg)
 ![light mode preview](documentation/assets/site-preview-light-mode.jpg)
@@ -164,11 +164,23 @@ The site has 3 main colours that are used in a variety of ways brown, black and 
 These colours were used to mimic that of a Bernese Mountain Dog to keep the dog theme throughout this site.
 
 <em> The dark theme background colour is decided by the browser and is not part of the colour palette. </em>
+
+
 As previously mentioned the selection colours were also changed to black background white text / white background black text, depending on the theme used.
+This was to keep in-line with the branding color choices (default is blue selection which is not part of the branding)
 To see this simply use your mouse to select text (hold down the click and drag the mouse over the text / ctrl + a)
 
 
 
+## Fonts
+
+The primary font of the site is Roboto, this was used as it has a variety of weights and styles available for the site, and it was chosen as it could be dynamic in weights and styles. 
+
+The secondary font of the site is Bebas Neue this was chosen as it is an uppercase font, but also the weight was appealing as a secondary font.
+I intentionally kept both fonts a Sans-Serif font as to complement each other.
+
+A paragraph length was also used to ensure that no head turning is required to read long sentences on larger screens. 
+Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
 
 
 
