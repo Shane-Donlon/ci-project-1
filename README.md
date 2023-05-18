@@ -9,7 +9,8 @@
 | [Project Goals](#project-goals) |
 | [UX](#ux) |
 | [Symantec HTML](#symantec-html) |
-
+| [Color Scheme](#color-scheme) |
+| [Fonts Used](#fonts) |
 ## Site Preview
 ![dark mode preview](documentation/assets/site-preview-dark-mode.jpg)
 ![light mode preview](documentation/assets/site-preview-light-mode.jpg)
@@ -50,7 +51,9 @@ Examples of where this can be found:
     site will load in dark mode, if not, the site will load in light mode. Some
     styling changes were made for the “waggling” animation to improve contrast
     on dark mode, as well as the header is coloured for dark mode. To test this
-    change your browser settings to either dark mode or to light mode
+    change your browser settings to either dark mode or to light mode. 
+    The meta tag for color scheme was used so that even if the css style sheet does not load, the background 
+    will be that of the theme picked, and will not "jump" from light to dark as the css files load.
   </li>
 <br>
   If you are on dark mode already (black background)
@@ -146,12 +149,38 @@ Below you will find a brief explaination for some of my Symantec HTML decisions 
     </li>
   </ul>
   <li>Success page</li>
-  <ul><li>The em was used on the success page for a similar reason, I want to set the same emphasis for accessible and sighted users.</li></ul>
+  <ul><li>The em element was used on the success page for a similar reason, I want to set the same emphasis for accessible and sighted users.</li></ul>
 </ol>
 
 
 While the user of multiple H1’s per page is allowed, for accessibility purposes I prefer to err on the side of caution and used 1 H1 per page. 
 As well as with my reset.css all User Agent styling was taken away, this was done intentionally as all fonts are the same, and I do not fall into the “it looks like a H1, so I’ll use a H1” mentality. 
+
+
+## Color Scheme
+![color scheme preview](documentation/assets/color-scheme.jpg)
+
+The site has 3 main colours that are used in a variety of ways brown, black and white.
+These colours were used to mimic that of a Bernese Mountain Dog to keep the dog theme throughout this site.
+
+<em> The dark theme background colour is decided by the browser and is not part of the colour palette. </em>
+
+
+As previously mentioned the selection colours were also changed to black background white text / white background black text, depending on the theme used.
+This was to keep in-line with the branding color choices (default is blue selection which is not part of the branding)
+To see this simply use your mouse to select text (hold down the click and drag the mouse over the text / ctrl + a)
+
+
+
+## Fonts
+
+The primary font of the site is Roboto, this was used as it has a variety of weights and styles available for the site, and it was chosen as it could be dynamic in weights and styles. 
+
+The secondary font of the site is Bebas Neue this was chosen as it is an uppercase font, but also the weight was appealing as a secondary font.
+I intentionally kept both fonts a Sans-Serif font as to complement each other.
+
+A paragraph length was also used to ensure that no head turning is required to read long sentences on larger screens. 
+Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
 
 
 
