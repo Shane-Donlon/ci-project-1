@@ -125,5 +125,27 @@ Overall Symantec HTML elements used:
 </ul>
 
 
-
+Below you will find a brief explaination for some of my Symantec HTML decisions made
+<ol>
+  <li>Index Page</li>
+  <ul>
+    <li>
+      The section element was not used on these pages as there is only a main
+      “section” on the page and did not want to cause confusion for accessible
+      users. All other pages have a
+      <section></section>
+      element.
+    </li>
+  </ul>
+  <li>Routes page</li>
+  <ul>
+    <li>
+      A strong element was used for the bold text “important that everyone
+      follows them” to provide additional context for screen readers, as I
+      believe that these rules are important for everyone to follow.
+    </li>
+  </ul>
+  <li>Success page</li>
+  <ul><li>The em was used on the success page for a similar reason, I want to set the same emphasis for accessible and sighted users.</li></ul>
+</ol>
 
