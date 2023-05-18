@@ -176,8 +176,15 @@ To see this simply use your mouse to select text (hold down the click and drag t
 
 The primary font of the site is Roboto, this was used as it has a variety of weights and styles available for the site, and it was chosen as it could be dynamic in weights and styles. 
 
+![Font Weight Roboto 400](documentation/assets/font-weight-roboto-400.jpg)
+![Font Weight Roboto 500](documentation/assets/font-weight-roboto-500.jpg)
+![Font Weight Roboto 500](documentation/assets/font-weight-roboto-700.jpg)
+
 The secondary font of the site is Bebas Neue this was chosen as it is an uppercase font, but also the weight was appealing as a secondary font.
 I intentionally kept both fonts a Sans-Serif font as to complement each other.
+
+![Font Weight Bebas Neue 400](documentation/assets/font-weight-bebas-neue-400.jpg)
+
 
 A paragraph length was also used to ensure that no head turning is required to read long sentences on larger screens. 
 Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
