@@ -1150,6 +1150,107 @@ Chrome Menu Screenshot
     <td>Not Applicable</td>
   </tr>
 
+  <tr>
+    <td>84</td>
+    <td>
+      Contrast Colour Checker Light Mode (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+    <tr>
+    <td>85</td>
+    <td>
+      Contrast Colour Checker Light Mode (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+ <tr>
+    <td>86</td>
+    <td>
+      Contrast Colour Checker Light Mode (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>87</td>
+    <td>
+      Contrast Colour Checker Light Mode (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+<tr>
+    <td>88</td>
+    <td>
+      Contrast Colour Checker Dark Mode (Index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>89</td>
+    <td>
+      Contrast Colour Checker Dark Mode (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+    <tr>
+    <td>90</td>
+    <td>
+      Contrast Colour Checker Dark Mode (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+    <tr>
+    <td>91</td>
+    <td>
+      Contrast Colour Checker Dark Mode (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
 
 
 </table>
