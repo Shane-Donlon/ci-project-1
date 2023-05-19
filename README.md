@@ -1227,7 +1227,7 @@ Chrome Menu Screenshot
     <td>Pass</td>
   </tr>
   
-    <tr>
+<tr>
     <td>90</td>
     <td>
       Contrast Colour Checker Dark Mode (beginners
@@ -1239,7 +1239,8 @@ Chrome Menu Screenshot
     <td>Pass</td>
     <td>Pass</td>
   </tr>
-    <tr>
+  
+  <tr>
     <td>91</td>
     <td>
       Contrast Colour Checker Dark Mode (success
