@@ -219,9 +219,18 @@ This was taken into consideration, and I have built the hamburger menu into a Fe
 As a fall back for this, browswers that do not support :has() will have the navigation links wrap to the top beside the branding.
 See images below. This was all a consious decision as browswer support for :has() is currently at 86.93% (see can I use link above) globally and it is a good time for me, to start to push the bounderies with this psuedo class to get a better understanding of it. Also this is a personal project, so I have no issues with being experimental with newer elements, but still being consious of browswer support. But also it was a good time to practice my feature query skills in css (@supports)
 
+As the nav bar is as designed tests some tests will not apply for Firefox and will be marked as not applicable "N/A"
+
 Firefox Menu Screenshot
 
+
+![firefox nav bar](documentation/assets/firefox-has-not-supported.jpg)
+
+
 Chrome Menu Screenshot
+
+
+![chrome nav bar](documentation/assets/chrome-has-supported.jpg)
 
 
 
