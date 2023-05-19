@@ -11,6 +11,11 @@
 | [Symantec HTML](#symantec-html) |
 | [Color Scheme](#color-scheme) |
 | [Fonts Used](#fonts) |
+| [Technology Used](#technology-used) |
+
+
+
+
 ## Site Preview
 ![dark mode preview](documentation/assets/site-preview-dark-mode.jpg)
 ![light mode preview](documentation/assets/site-preview-light-mode.jpg)
@@ -188,6 +193,36 @@ I intentionally kept both fonts a Sans-Serif font as to complement each other.
 
 A paragraph length was also used to ensure that no head turning is required to read long sentences on larger screens. 
 Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
+
+
+## Technology Used
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+
+JavaScript was not used on this site, as it was a HTML and CSS only challenge, if JavaScript was allowed for this I would have used an Event Listener and Arrow Function like below to toggle the active class on the hamburger menu
+
+    hamgurgerMenu = document.querySelector(".hamburger-menu");
+    navBar = document.querySelector(".nav");
+
+    hamgurgerMenu.addEventListener("click", () => {
+      navBar.classList.toggle("active");
+    });
+
+## Testing
+As a note before we disucss testing. 
+
+The hamburger menu was created using CSS :has which is curently only supported in Chrome and Safari (technical preview) see [can I use](https://caniuse.com/css-has) 
+
+This was taken into consideration, and I have built the hamburger menu into a Feature Query in CSS, meaning that when Firefox supports :has() it will automatically become a hamburger menu without having to write any new code.
+
+As a fall back for this, browswers that do not support :has() will have the navigation links wrap to the top beside the branding.
+See images below. This was all a consious decision as browswer support for :has() is currently at 86.93% (see can I use link above) globally and it is a good time for me, to start to push the bounderies with this psuedo class to get a better understanding of it. Also this is a personal project, so I have no issues with being experimental with newer elements, but still being consious of browswer support. But also it was a good time to practice my feature query skills in css (@supports)
+
+Firefox Menu Screenshot
+
+Chrome Menu Screenshot
+
 
 
 
