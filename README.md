@@ -23,6 +23,33 @@
 ## Project Goals
 Wexford Walking Group is a voluntary group of dog owners, who are keen to have other likeminded people join their group. The group meets up regularly for walks, or just to chill out with some coffee and friends, the weekly coffee is always best because there is cake there.
 
+## User Stores
+<ul>
+  <li>As a new user</li>
+   <ul>
+    <li>I want to click on the company name and be taken to the home page.</li>
+    <li>I want to click home and be taken to the home page.</li>
+    <li>I want to click routes and be taken to the page with route information.</li>
+    <li>I want to click beginners and be taken to a page with guidance on how to walk a dog.</li>
+   </ul>
+  <li>As a returning user</li>
+  <ul>
+    <li>I want a website that feels familiar but also a website that is quick to navigate to find route options with ease.</li>
+  </ul>
+
+  <li>As an accessible new user</li>
+  <ul>
+    <li>I want a website that is easy to navigate.</li>
+  </ul>
+
+  
+  <li>As an accessible returning user</li>
+  <ul>
+    <li>I want to be able to skip the navigation bar</li>
+  </ul>
+</ul>
+
+
 ## UX
 The website was designed to be intuitive, and easy to navigate, and to be quick to get to the information needed, with a focus on user system preferences, and accessibility. As this site is for a dog walking group, I also wanted to include fun for the users through animations and interest.
 The CSS :: selection pseudo element was also styled (for both dark and light modes) as part of this fun and interesting part of the site.
@@ -208,6 +235,9 @@ JavaScript was not used on this site, as it was a HTML and CSS only challenge, i
     hamgurgerMenu.addEventListener("click", () => {
       navBar.classList.toggle("active");
     });
+
+
+
 
 ## Testing
 As a note before we disucss testing. 
@@ -1163,7 +1193,7 @@ Chrome Menu Screenshot
     <td>Pass</td>
   </tr>
   
-    <tr>
+   <tr>
     <td>85</td>
     <td>
       Contrast Colour Checker Light Mode (routes
