@@ -1252,6 +1252,111 @@ Chrome Menu Screenshot
     <td>Pass</td>
     <td>Pass</td>
   </tr>
+
+   <tr>
+    <td>92</td>
+    <td>
+     Wexford Walking Group Title appears (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+  <tr>
+    <td>93</td>
+    <td>
+     Wexford Walking Group Title appears (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>94</td>
+    <td>
+     Wexford Walking Group Title appears (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>95</td>
+    <td>
+     Wexford Walking Group Title appears (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>96</td>
+    <td>
+    Site favicon loads appears (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>97</td>
+    <td>
+    Site favicon loads appears (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+  <tr>
+    <td>98</td>
+    <td>
+    Site favicon loads appears (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>99</td>
+    <td>
+   Site favicon loads appears (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
 </table>
 
 
