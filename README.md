@@ -1251,6 +1251,7 @@ Chrome Menu Screenshot
     <td>Pass</td>
     <td>Pass</td>
   </tr>
-
-
 </table>
+
+
+Notes on the contrast this has also been verified by a person who has partial colour blindness and all words were legible (both light and dark modes)
