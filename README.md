@@ -209,5 +209,20 @@ JavaScript was not used on this site, as it was a HTML and CSS only challenge, i
       navBar.classList.toggle("active");
     });
 
-- 
+## Testing
+As a note before we disucss testing. 
+
+The hamburger menu was created using CSS :has which is curently only supported in Chrome and Safari (technical preview) see [can I use](https://caniuse.com/css-has) 
+
+This was taken into consideration, and I have built the hamburger menu into a Feature Query in CSS, meaning that when Firefox supports :has() it will automatically become a hamburger menu without having to write any new code.
+
+As a fall back for this, browswers that do not support :has() will have the navigation links wrap to the top beside the branding.
+See images below. This was all a consious decision as browswer support for :has() is currently at 86.93% (see can I use link above) globally and it is a good time for me, to start to push the bounderies with this psuedo class to get a better understanding of it. Also this is a personal project, so I have no issues with being experimental with newer elements, but still being consious of browswer support. But also it was a good time to practice my feature query skills in css (@supports)
+
+Firefox Menu Screenshot
+
+Chrome Menu Screenshot
+
+
+
 
