@@ -1417,7 +1417,43 @@ This appears to be an issue with Jigsaw validation and not a code error.
 
 ## Lighthouse reports
 
+
+
+
+
+### Mobile Reports:
+![Lighthouse Report Mobile](documentation/assets/lighthouse-report-mobile.jpg)
+For mobile the performance has been measured as 88, this is primarily due to the static hero image that loads on the home-page, which a site of 32 KiB. 
+While loading="lazy" attribute could be used here for desktop the image loads in view and it is best practice to not have unneccasry lazy load. The picture has been compressed as much as possible without losing too much quality, and any further compression of the image would have an incredibly poor quality introduction to the site, and would not encourage users to progress beyone the index page.
+
+First Contentful Paint score = 2.5s.
+Largerst Contentful Paint = 2.7s.
+
+While this is being flagged as a "warning" in lighthouse, the best practice for loading is less than 3 seconds, as this is the average length of time users will wait for a page to load, as this site loads in 2.5s - 2.7s this is still within the average length and this performance would likely not deter the average user away from the site.
+
+
+Accessiblitiy:
+For this site on mobile this score is due to the empty label for checkbox, while I agree that JavaScript is best used for toggling classses (see above) this is a personal site and learning more on CSS :has() was a priority for me for this site.
+
+If this were a fully production site JavaScript would be used for the Hamburger naviation (which would have an accessiblity score of 100%) 
+
+ ### Desktop reports:
+ No scores to discuss for desktop.
+ ![Lighthouse Report Desktop](documentation/assets/light-house-report-index-desktop.jpg)
+
 ## Wireframes
 
 ## Credits
+
+- [Image Compressor](https://imagecompressor.com/)</li>
+- [Google Fonts - Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)</li>
+- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)</li>
+- [Facebook Social Media Link image (footer)](https://fontawesome.com/icons/facebook?f=brands&s=solid)
+- [Twitter Social Media Link image (footer)](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+- [YouTube Social Media Link image (footer)](https://fontawesome.com/icons/youtube?f=brands&s=solid)
+- [Instagram Social Media Link image (footer)](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+- [Poop Emoji used in rules page](https://fontawesome.com/v5/icons/poop?f=classic&s=solid)
+- [Paw Icon used in link and buttons](https://fontawesome.com/icons/paw?f=classic&s=solid)
+- 
+## Deployment
 
