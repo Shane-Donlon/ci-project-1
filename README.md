@@ -23,6 +23,33 @@
 ## Project Goals
 Wexford Walking Group is a voluntary group of dog owners, who are keen to have other likeminded people join their group. The group meets up regularly for walks, or just to chill out with some coffee and friends, the weekly coffee is always best because there is cake there.
 
+## User Stores
+<ul>
+  <li>As a new user</li>
+   <ul>
+    <li>I want to click on the company name and be taken to the home page.</li>
+    <li>I want to click home and be taken to the home page.</li>
+    <li>I want to click routes and be taken to the page with route information.</li>
+    <li>I want to click beginners and be taken to a page with guidance on how to walk a dog.</li>
+   </ul>
+  <li>As a returning user</li>
+  <ul>
+    <li>I want a website that feels familiar but also a website that is quick to navigate to find route options with ease.</li>
+  </ul>
+
+  <li>As an accessible new user</li>
+  <ul>
+    <li>I want a website that is easy to navigate.</li>
+  </ul>
+
+  
+  <li>As an accessible returning user</li>
+  <ul>
+    <li>I want to be able to skip the navigation bar</li>
+  </ul>
+</ul>
+
+
 ## UX
 The website was designed to be intuitive, and easy to navigate, and to be quick to get to the information needed, with a focus on user system preferences, and accessibility. As this site is for a dog walking group, I also wanted to include fun for the users through animations and interest.
 The CSS :: selection pseudo element was also styled (for both dark and light modes) as part of this fun and interesting part of the site.
@@ -209,6 +236,9 @@ JavaScript was not used on this site, as it was a HTML and CSS only challenge, i
       navBar.classList.toggle("active");
     });
 
+
+
+
 ## Testing
 As a note before we disucss testing. 
 
@@ -219,10 +249,1145 @@ This was taken into consideration, and I have built the hamburger menu into a Fe
 As a fall back for this, browswers that do not support :has() will have the navigation links wrap to the top beside the branding.
 See images below. This was all a consious decision as browswer support for :has() is currently at 86.93% (see can I use link above) globally and it is a good time for me, to start to push the bounderies with this psuedo class to get a better understanding of it. Also this is a personal project, so I have no issues with being experimental with newer elements, but still being consious of browswer support. But also it was a good time to practice my feature query skills in css (@supports)
 
+As the nav bar is as designed tests some tests will not apply for Firefox and will be marked as not applicable "N/A"
+
 Firefox Menu Screenshot
+
+
+![firefox nav bar](documentation/assets/firefox-has-not-supported.jpg)
+
 
 Chrome Menu Screenshot
 
 
+![chrome nav bar](documentation/assets/chrome-has-supported.jpg)
 
 
+<table>
+  <th>Testing Number</th>
+  <th>Testing Description</th>
+  <th>Result Chrome</th>
+  <th>Result Chrome Mobile</th>
+  <th>Result Firefox</th>
+  <th>Result Firefox Mobile</th>
+  <th>Result Safari Tablet</th>
+  <tr>
+    <td>1</td>
+    <td>Website Loads</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>Wagggling Animation index page does not laod on mobile</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>Wagggling Animation index page does laod on desktop</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>Index page hero image loads</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>5</td>
+    <td>Navigation Links go to correct pages (index page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>6</td>
+    <td>Footer links open in new tab (index pages)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>7</td>
+    <td>Navigation Links go to correct pages (routes page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>8</td>
+    <td>Footer links open in new tab (routes pages)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>Navigation Links go to correct pages (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>Footer links open in new tab (beginners pages)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>Navigation links open in new tab (success pages)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>12</td>
+    <td>Footer links open in new tab (success pages)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>13</td>
+    <td>Skip to content appears on tab (index page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>14</td>
+    <td>Skip to content appears on tab (routes page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>15</td>
+    <td>Skip to content appears on tab (routes page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>16</td>
+    <td>Skip to content appears on tab (sucess page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>17</td>
+    <td>Skip to content click and enter goes to main (index page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>18</td>
+    <td>Skip to content click and enter goes to main (routes page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>19</td>
+    <td>Skip to content click and enter goes to main (beginners page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>20</td>
+    <td>Skip to content click and enter goes to main (success page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>21</td>
+    <td>Hamburger menu appears on mobile devices (index page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>22</td>
+    <td>Hamburger menu appears on mobile devices (routes page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>23</td>
+    <td>Hamburger menu appears on mobile devices (beginners page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>24</td>
+    <td>Hamburger menu appears on mobile devices (success page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>25</td>
+    <td>
+      Nacigation Links Animate on hover and tab / focus desktop only (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>26</td>
+    <td>
+      Nacigation Links Animate on hover and tab / focus desktop only (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>27</td>
+    <td>
+      Nacigation Links Animate on hover and tab / focus desktop only (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>28</td>
+    <td>
+      Nacigation Links Animate on hover and tab / focus desktop only (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>29</td>
+    <td>
+      Join Us Link Animate on hover and tab / focus desktop only (index page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>30</td>
+    <td>Footer Links Animate on hover desktop only (index page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>31</td>
+    <td>Footer Links Animate on hover desktop only (routes page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>32</td>
+    <td>Footer Links Animate on hover desktop only (beginners page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>33</td>
+    <td>Footer Links Animate on hover desktop only (sucess page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>34</td>
+    <td>Footer Links Animate on active mobile only (index page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>35</td>
+    <td>Footer Links Animate on active mobile only (routes page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>36</td>
+    <td>Footer Links Animate on active mobile only (beginners page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>37</td>
+    <td>Footer Links Animate on active mobile only (sucess page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>38</td>
+    <td>Page Responsive for mobile only (index page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>39</td>
+    <td>Page Responsive for mobile only (routes page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>40</td>
+    <td>Page Responsive for mobile only (beginners page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>41</td>
+    <td>Page Responsive for mobile only (sucess page)</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>42</td>
+    <td>Dark mode (index page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>43</td>
+    <td>Dark mode (routes page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>44</td>
+    <td>Dark mode (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>45</td>
+    <td>Dark mode (success page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>46</td>
+    <td>Light mode (index page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>47</td>
+    <td>Light mode (routes page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>48</td>
+    <td>Light mode (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>49</td>
+    <td>Light mode (success page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>50</td>
+    <td>Selection colour light mode (all devices) (index page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>51</td>
+    <td>Selection colour light mode (all devices) (routes page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>52</td>
+    <td>Selection colour light mode (all devices) (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>53</td>
+    <td>Selection colour light mode (all devices) (success page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>54</td>
+    <td>
+      Walking Group Wexford branding links to index page (all devices) (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>55</td>
+    <td>
+      Walking Group Wexford branding links to index page (all devices) (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>56</td>
+    <td>
+      Walking Group Wexford branding links to index page (all devices)
+      (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>57</td>
+    <td>
+      Walking Group Wexford branding links to index page (all devices) (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>58</td>
+    <td>
+      Walking Group Wexford branding links cursor pointer on hover (desktop
+      only) (index page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>59</td>
+    <td>
+      Walking Group Wexford branding links cursor pointer on hover (desktop
+      only) (routes page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>60</td>
+    <td>
+      Walking Group Wexford branding links cursor pointer on hover (desktop
+      only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>61</td>
+    <td>
+      Walking Group Wexford branding links cursor pointer on hover (desktop
+      only) (success page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>62</td>
+    <td>
+      Navigation Links cursor pointer on hover (desktop only) (index page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>63</td>
+    <td>
+      Navigation Links cursor pointer on hover (desktop only) (routes page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>64</td>
+    <td>
+      Navigation Links cursor pointer on hover (desktop only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>65</td>
+    <td>
+      Navigation Links cursor pointer on hover (desktop only) (success page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>66</td>
+    <td>Footer Links cursor pointer on hover (desktop only) (index page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>67</td>
+    <td>Footer Links cursor pointer on hover (desktop only) (routes page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>68</td>
+    <td>
+      Footer Links cursor pointer on hover (desktop only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>69</td>
+    <td>Footer Links cursor pointer on hover (desktop only) (success page)</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>70</td>
+    <td>
+      Abbreviation HTML routes page only hover mouse over KM and leave for a few
+      seconds (desktop only) (routes page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>71</td>
+    <td>Input Form contains red border for required input (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>72</td>
+    <td>Input Form contains green border for valid input (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>73</td>
+    <td>
+      Submit button redirects to success page upon valid input fields completed
+      correctly (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>74</td>
+    <td>Reset Form button clears all data from form (beginners page)</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>75</td>
+    <td>
+      Required Field First Name cannot submit if blank or incomplete (error
+      appears) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>76</td>
+    <td>
+      Required Field Surname cannot submit if blank or incomplete (error
+      appears) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>77</td>
+    <td>
+      Required Field email cannot submit if blank or incomplete (error appears)
+      (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>78</td>
+    <td>
+      Submit Button cursor pointer on hover (desktop only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>79</td>
+    <td>
+      Reset Form button cursor pointer on hover (desktop only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>80</td>
+    <td>
+      Submit Button animates on hover and focus (desktop only) (beginners page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>81</td>
+    <td>
+      Reset Form Button animates on hover and focus (desktop only) (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>82</td>
+    <td>
+      Iframes Cursor Pointer on hover (desktop only) (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+
+  <tr>
+    <td>83</td>
+    <td>
+      Iframes play on click (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Pass</td>
+    <td>Not Applicable</td>
+    <td>Not Applicable</td>
+  </tr>
+
+  <tr>
+    <td>84</td>
+    <td>
+      Contrast Colour Checker Light Mode (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>85</td>
+    <td>
+      Contrast Colour Checker Light Mode (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+ <tr>
+    <td>86</td>
+    <td>
+      Contrast Colour Checker Light Mode (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>87</td>
+    <td>
+      Contrast Colour Checker Light Mode (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+<tr>
+    <td>88</td>
+    <td>
+      Contrast Colour Checker Dark Mode (Index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+  <tr>
+    <td>89</td>
+    <td>
+      Contrast Colour Checker Dark Mode (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+<tr>
+    <td>90</td>
+    <td>
+      Contrast Colour Checker Dark Mode (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+  <tr>
+    <td>91</td>
+    <td>
+      Contrast Colour Checker Dark Mode (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+
+   <tr>
+    <td>92</td>
+    <td>
+     Wexford Walking Group Title appears (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+  <tr>
+    <td>93</td>
+    <td>
+     Wexford Walking Group Title appears (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>94</td>
+    <td>
+     Wexford Walking Group Title appears (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>95</td>
+    <td>
+     Wexford Walking Group Title appears (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>96</td>
+    <td>
+    Site favicon loads appears (index
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>97</td>
+    <td>
+    Site favicon loads appears (routes
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+  <tr>
+    <td>98</td>
+    <td>
+    Site favicon loads appears (beginners
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+   <tr>
+    <td>99</td>
+    <td>
+   Site favicon loads appears (success
+      page)
+    </td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+    <td>Pass</td>
+  </tr>
+  
+</table>
+
+
+Notes on the contrast this has also been verified by a person who has partial colour blindness and all words were legible (both light and dark modes)
