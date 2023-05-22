@@ -202,6 +202,15 @@ As previously mentioned the selection colours were also changed to black backgro
 This was to keep in-line with the branding color choices (default is blue selection which is not part of the branding)
 To see this simply use your mouse to select text (hold down the click and drag the mouse over the text / ctrl + a)
 
+Notes: When using Wave a number of contrast errors appear
+![contrast errors](documentation/assets/wave-report-contrast.jpg)
+
+But upon manual verficiation all colors used have passed WCAG AA and WCAG AAA.
+![nav bar contrast](documentation/assets/wave-contrast-nav-bar.jpg)
+![site contrast light mode](documentation/assets/wave-contrast-light-mode.jpg)
+![site contrast dark mode](documentation/assets/wave-contrast-dark-mode.jpg)
+![site contrast brown white](documentation/assets/wave-contrast-brown-white.jpg)
+
 
 
 ## Fonts
