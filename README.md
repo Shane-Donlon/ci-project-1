@@ -1400,3 +1400,24 @@ Chrome Menu Screenshot
 
 
 Notes on the contrast this has also been verified by a person who has partial colour blindness and all words were legible (both light and dark modes)
+
+
+## Code Validation
+HTML Code has been validated with no errors, and 2 warnings regarding Role = list
+![HTML Warning Line 12](documentation/assets/html-warning-line-12.jpg)
+![HTML Warning Line 14](documentation/assets/html-warning-line-14.jpg)
+
+CSS Code has been validated with errors, but this is due to the dynamic nature of custom properties in CSS,
+This appears to be an issue with Jigsaw validation and not a code error.
+
+![CSS Validator errors](documentation/assets/css-validator-results-errors.jpg)
+![CSS Validator warnings](documentation/assets/css-validator-resutls-warning.jpg)
+  
+
+
+## Lighthouse reports
+
+## Wireframes
+
+## Credits
+
