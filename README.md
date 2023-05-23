@@ -2,20 +2,6 @@
 [Deployment Link](https://shane-donlon.github.io/ci-project-1/index.html)
 
 
-| Table Of Contents |
-| --- |
-| [Deployment Link](#wexford-walking-group) |
-| [Site Preview](#site-preview) |
-| [Project Goals](#project-goals) |
-| [UX](#ux) |
-| [Symantec HTML](#symantec-html) |
-| [Color Scheme](#color-scheme) |
-| [Fonts Used](#fonts) |
-| [Technology Used](#technology-used) |
-
-
-
-
 ## Site Preview
 ![dark mode preview](documentation/assets/site-preview-dark-mode.jpg)
 ![light mode preview](documentation/assets/site-preview-light-mode.jpg)
@@ -1471,6 +1457,36 @@ No scores to discuss for desktop.
 ![Lighthouse Routes Desktop](documentation/assets/light-house-beginners-desktop.jpg)
 
 ## Wireframes
+
+
+### Desktop
+
+Index Page
+![Wireframe Index Desktop](documentation/assets/wireframe-index-desktop.jpg)
+
+Routes Page
+![Wireframe Routes Desktop](documentation/assets/wireframe-routes-desktop.jpg)
+
+Beginners Page
+![Wireframe Beginners Desktop](documentation/assets/wireframe-beginners-desktop.jpg)
+
+### Mobile / Tablet
+
+Index Page
+
+
+![Wireframe Index Mobile](documentation/assets/wireframe-index-mobile.jpg)
+
+Routes Page
+
+
+![Wireframe Routes Mobile](documentation/assets/wireframe-routes-mobile.jpg)
+
+Beginners Page
+
+
+![Wireframe Beginners Mobile](documentation/assets/wireframe-beginners-mobile.jpg)
+
 
 ## Credits
 
