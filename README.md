@@ -1492,7 +1492,8 @@ No scores to discuss for desktop.
 - [Routes Image 3](https://static-maps.alltrails.com/production/at-map/38108785/v1-trail-ireland-county-wexford-south-wexford-coastal-path-at-map-38108785-1645077296-300w250h-en-US-i-1-style_3.png)
 - [Fenrir Canine Video 1](https://www.youtube.com/watch?v=D8h194DZ3XE&ab_channel=WillAthertonCanineTraining)
 - [Fenrir Canine Video 2](https://www.youtube.com/watch?v=DgWGuOr8-Ro&ab_channel=WillAthertonCanineTraining)
-- 
+- [Web Dev Simplified Hamburger Menu](https://www.youtube.com/watch?v=dAIVbLrAb_U&ab_channel=WebDevSimplified&themeRefresh=1)
+
 ## Deployment
 The website was deployed using GitHub Pages:
 
