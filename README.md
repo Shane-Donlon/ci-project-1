@@ -1422,8 +1422,10 @@ The same issue appears for Grid Area - this is not a coding error rather than an
 
 
 
-### Mobile Reports:
+### Mobile Reports index and overall:
 ![Lighthouse Report Mobile](documentation/assets/lighthouse-report-mobile.jpg)
+
+
 For mobile the performance has been measured as 88, this is primarily due to the static hero image that loads on the home-page, which a site of 32 KiB. 
 While loading="lazy" attribute could be used here for desktop the image loads in view and it is best practice to not have unneccasry lazy load. The picture has been compressed as much as possible without losing too much quality, and any further compression of the image would have an incredibly poor quality introduction to the site, and would not encourage users to progress beyone the index page.
 
@@ -1433,15 +1435,40 @@ Largerst Contentful Paint = 2.7s.
 
 While this is being flagged as a "warning" in lighthouse, the best practice for loading is less than 3 seconds, as this is the average length of time users will wait for a page to load, as this site loads in 2.5s - 2.7s this is still within the average length and this performance would likely not deter the average user away from the site.
 
-
 Accessiblitiy:
 For this site on mobile this score is due to the empty label for checkbox, while I agree that JavaScript is best used for toggling classses (see above) this is a personal site and learning more on CSS :has() was a priority for me for this site.
 
-If this were a fully production site JavaScript would be used for the Hamburger naviation (which would have an accessiblity score of 100%) 
+If this were a fully production site JavaScript would be used for the Hamburger naviation (which would have an accessiblity score of 100%)
 
- ### Desktop reports:
- No scores to discuss for desktop.
- ![Lighthouse Report Desktop](documentation/assets/light-house-report-index-desktop.jpg)
+
+
+### Mobile Reports routes
+![Lighthouse Routes](documentation/assets/light-house-routes-mobile.jpg)
+![Lighthouse Routes Paint](documentation/assets/light-house-routes-mobile-paint.jpg)
+
+
+
+### Mobile Reports beginners
+Performance has declined for this page due to iFrame but is still within the 3 seconds so no further action was taken
+![Lighthouse beginners](documentation/assets/light-house-beginners-mobile.jpg)
+![Lighthouse beginners Paint](documentation/assets/light-house-beginners-mobile-paint.jpg)
+
+
+### Desktop reports index
+
+
+No scores to discuss for desktop.
+![Lighthouse Report Desktop](documentation/assets/light-house-report-index-desktop.jpg)
+
+### Desktop Reports routes
+
+
+![Lighthouse Routes Desktop](documentation/assets/light-house-routes-desktop.jpg)
+
+### Desktop Reports beginners
+
+
+![Lighthouse Routes Desktop](documentation/assets/light-house-beginners-desktop.jpg)
 
 ## Wireframes
 
