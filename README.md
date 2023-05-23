@@ -1409,6 +1409,7 @@ HTML Code has been validated with no errors, and 2 warnings regarding Role = lis
 
 CSS Code has been validated with errors, but this is due to the dynamic nature of custom properties in CSS,
 This appears to be an issue with Jigsaw validation and not a code error.
+The same issue appears for Grid Area - this is not a coding error rather than an issue with Jigsaw.
 
 ![CSS Validator errors](documentation/assets/css-validator-results-errors.jpg)
 ![CSS Validator warnings](documentation/assets/css-validator-resutls-warning.jpg)
@@ -1428,6 +1429,7 @@ While loading="lazy" attribute could be used here for desktop the image loads in
 
 First Contentful Paint score = 2.5s.
 Largerst Contentful Paint = 2.7s.
+![Lighthouse Paint Report](documentation/assets/lighthouse-paint.jpg)
 
 While this is being flagged as a "warning" in lighthouse, the best practice for loading is less than 3 seconds, as this is the average length of time users will wait for a page to load, as this site loads in 2.5s - 2.7s this is still within the average length and this performance would likely not deter the average user away from the site.
 
@@ -1445,15 +1447,24 @@ If this were a fully production site JavaScript would be used for the Hamburger 
 
 ## Credits
 
-- [Image Compressor](https://imagecompressor.com/)</li>
-- [Google Fonts - Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)</li>
-- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)</li>
+- [Image Compressor](https://imagecompressor.com/)
+- [Google Fonts - Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)
+- [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
 - [Facebook Social Media Link image (footer)](https://fontawesome.com/icons/facebook?f=brands&s=solid)
 - [Twitter Social Media Link image (footer)](https://fontawesome.com/icons/twitter?f=brands&s=solid)
 - [YouTube Social Media Link image (footer)](https://fontawesome.com/icons/youtube?f=brands&s=solid)
 - [Instagram Social Media Link image (footer)](https://fontawesome.com/icons/instagram?f=brands&s=solid)
 - [Poop Emoji used in rules page](https://fontawesome.com/v5/icons/poop?f=classic&s=solid)
 - [Paw Icon used in link and buttons](https://fontawesome.com/icons/paw?f=classic&s=solid)
+- [Andy Bell CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/)
+- [Balsamiq - wireframes](https://balsamiq.com/)
+- [Home Page Hero Image](https://www.pexels.com/photo/two-bernese-mountain-dogs-lying-on-floor-9040438/)
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+- [Routes Image 1](https://static-maps.alltrails.com/production/at-map/79202755/v1-trail-ireland-county-wexford-tintern-trails-tintern-demesne-trail-at-map-79202755-1656102922-414w200h-en-US-i-2-style_3.png)
+- [Routes Image 2](https://static-maps.alltrails.com/production/at-map/79202581/v1-trail-ireland-county-wexford-tintern-trails-bannow-bay-trail-at-map-79202581-1645174988-414w200h-en-US-i-2-style_3.png)
+- [Routes Image 3](https://static-maps.alltrails.com/production/at-map/38108785/v1-trail-ireland-county-wexford-south-wexford-coastal-path-at-map-38108785-1645077296-300w250h-en-US-i-1-style_3.png)
+- [Fenrir Canine Video 1](https://www.youtube.com/watch?v=D8h194DZ3XE&ab_channel=WillAthertonCanineTraining)
+- [Fenrir Canine Video 2](https://www.youtube.com/watch?v=DgWGuOr8-Ro&ab_channel=WillAthertonCanineTraining)
 - 
 ## Deployment
 
