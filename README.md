@@ -1509,6 +1509,12 @@ Beginners Page
 - [Fenrir Canine Video 1](https://www.youtube.com/watch?v=D8h194DZ3XE&ab_channel=WillAthertonCanineTraining)
 - [Fenrir Canine Video 2](https://www.youtube.com/watch?v=DgWGuOr8-Ro&ab_channel=WillAthertonCanineTraining)
 - [Web Dev Simplified Hamburger Menu](https://www.youtube.com/watch?v=dAIVbLrAb_U&ab_channel=WebDevSimplified&themeRefresh=1)
+- [PNG to ICO Converter](https://pngtoicon.com/)
+- Darrach Barneveld - Classmate for feedback and testing
+- Artem Marych - Classmate for feedback and testing
+- Izabella Lopes - Classmate for feedback and testing
+- [Aleksei Konovalov - for being an excellent mentor through this, and providing guidance. ](https://kh.linkedin.com/in/aleksei-konovalov/en?trk=people-guest_people_search-card)
+- Last but not least - my better half Chloe, and Oscar for being an absolute rock and inspiration. Thank you!
 
 ## Deployment
 The website was deployed using GitHub Pages:
