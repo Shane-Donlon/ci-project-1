@@ -1467,4 +1467,30 @@ If this were a fully production site JavaScript would be used for the Hamburger 
 - [Fenrir Canine Video 2](https://www.youtube.com/watch?v=DgWGuOr8-Ro&ab_channel=WillAthertonCanineTraining)
 - 
 ## Deployment
+The website was deployed using GitHub Pages:
 
+In the GitHub repository navigate to the Settings tab
+On the left-hand menu select Pages
+For the source select Branch: master
+After the web page refreshes automatically you will see a ribbon on the top saying: Your site is live at https://shane-donlon.github.io/ci-project-1/index.html
+You can for fork the repository:
+
+Go to the GitHub repository
+Click on Fork button in the upper right-hand corner
+Edit the repository name and description if desired
+Click the green create fork button
+You can clone the repository:
+
+Go to the GitHub repository
+Locate the green Code button above the list of files and click it
+Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+Open Git Bash
+Change the current working directory to the one where you want the cloned directory
+Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+Press Enter to create your local clone.
+You can run this repository locally:
+
+Go to the GitHub repository
+Locate the green Code button above the list of files and click it
+From the dropdown menu select download Zip.
+Download and open the zip file to run in an editor
