@@ -1491,6 +1491,7 @@ Beginners Page
 ## Credits
 
 - [Image Compressor](https://imagecompressor.com/)
+- [Dog Favicon](https://icons8.com/icon/16018/dog)
 - [Google Fonts - Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
 - [Facebook Social Media Link image (footer)](https://fontawesome.com/icons/facebook?f=brands&s=solid)
@@ -1544,3 +1545,31 @@ Go to the GitHub repository
 Locate the green Code button above the list of files and click it
 From the dropdown menu select download Zip.
 Download and open the zip file to run in an editor
+
+## Site Features
+### All pages
+- All links on hover have an animation and cursor pointer has been set to convey that they are hover a link
+
+- All linnk on focus (tab) have the same animation as hover for tab users to track their location on the page.
+
+- A skip to content link is added on every page for accessilbity users to skip the navigation menu for returning users
+
+- Both light and dark modes are set per user preferances.
+
+- Reduced animation used and set per user preferences
+
+- A hamburger menu has been added as this is an expectation of users for sites 
+
+- A feature query is used to automatically change to hamburger menu on supported platforms
+
+- Selection color has been used to carry the branding (on light and dark mode) but also the default blue does not work well with the theme colors
+
+
+
+### Index Page
+- The waggling animation has been used to attract users attention and to convey the idea of a dogs tail waggling and being happy.
+- This animation does not appear for those with reduced animation preferences.
+
+### Beginners Page
+- The newsletter form on this page has a red required outline
+- Upon valid input the color changes from red to green to give the visual feedback for the user
