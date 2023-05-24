@@ -1550,26 +1550,67 @@ Download and open the zip file to run in an editor
 ### All pages
 - All links on hover have an animation and cursor pointer has been set to convey that they are hover a link
 
-- All linnk on focus (tab) have the same animation as hover for tab users to track their location on the page.
+
+![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
+
+
+![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
+
+- All linnk on focus (tab) have the same animation as hover for tab users to track their location on the page, footer focus outline visible only!
+![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
+
+
+![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
+
+
+![Footer hover Dark mode](documentation/assets/footer-change-color-hover.jpg)
+
+
+![Footer Focus Dark mode](documentation/assets/footer-focus.jpg)
 
 - A skip to content link is added on every page for accessilbity users to skip the navigation menu for returning users
+![Skip To Content](documentation/assets/skip-to-content.jpg)
 
 - Both light and dark modes are set per user preferances.
-
+(see site previews above)
 - Reduced animation used and set per user preferences
 
 - A hamburger menu has been added as this is an expectation of users for sites 
+- 
+![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
+
+![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
+
 
 - A feature query is used to automatically change to hamburger menu on supported platforms
+- 
+![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
 
+![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
 - Selection color has been used to carry the branding (on light and dark mode) but also the default blue does not work well with the theme colors
 
+
+![Selection Color Dark Mode](documentation/assets/selection-color-dark.jpg)
+
+
+![Selection Color Light Mode](documentation/assets/selection-color-light.jpg)
 
 
 ### Index Page
 - The waggling animation has been used to attract users attention and to convey the idea of a dogs tail waggling and being happy.
 - This animation does not appear for those with reduced animation preferences.
+- This animation does not appear for mobile devices to keep site speed fast.
+
+
+![Waggling Animation Dark Mode](documentation/assets/waggling-animation.jpg)
+
+
+![Waggling Animation Light Mode](documentation/assets/waggling-animation-light-mode.jpg)
+
 
 ### Beginners Page
 - The newsletter form on this page has a red required outline
 - Upon valid input the color changes from red to green to give the visual feedback for the user
+
+
+![Newsletter Dark Mode](documentation/assets/newsletter-change-color.jpg)
