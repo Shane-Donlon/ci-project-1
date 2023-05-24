@@ -192,11 +192,6 @@ Notes: When using Wave a number of contrast errors appear
 ![contrast errors](documentation/assets/wave-report-contrast.jpg)
 
 But upon manual verficiation all colors used have passed WCAG AA and WCAG AAA.
-![nav bar contrast](documentation/assets/wave-contrast-nav-bar.jpg)
-![site contrast light mode](documentation/assets/wave-contrast-light-mode.jpg)
-![site contrast dark mode](documentation/assets/wave-contrast-dark-mode.jpg)
-![site contrast brown white](documentation/assets/wave-contrast-brown-white.jpg)
-
 
 
 ## Fonts
