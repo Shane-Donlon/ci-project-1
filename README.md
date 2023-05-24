@@ -1607,6 +1607,13 @@ Download and open the zip file to run in an editor
 
 ![Waggling Animation Light Mode](documentation/assets/waggling-animation-light-mode.jpg)
 
+### Routes Page
+- ABBR has been used to set the context from KM to kilometer
+
+
+![ABBR abbreeviation](documentation/assets/abbr-added-to-site.jpg)
+
+
 
 ### Beginners Page
 - The newsletter form on this page has a red required outline
@@ -1649,3 +1656,7 @@ Download and open the zip file to run in an editor
 | Name files consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility. | Confirmed |
 | Group files in directories by file type (e.g. an assets directory will contain all static files and may be organised into sub-directories such as CSS, images, etc.) | Images in assets folder, css in assets folder, read me in documentation folder |
 | Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors. | Confirmed |
+
+### Color contrast
+![Brown - White contrast](documentation/assets/wcag-contrast-ratio.jpg)
+![Black - White contrast](documentation/assets/wcag-contrast-ratio-bw.jpg)
