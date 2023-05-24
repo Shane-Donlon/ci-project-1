@@ -448,6 +448,16 @@ em {
   font-style: italic;
 }
 
+/* Page not found error 404 */
+.error-404__img {
+  max-height: 500px;
+  transition: fill 250ms ease;
+}
+
+.error-404__img:hover {
+  fill: var(--clr-brown);
+}
+
 /* media queries support queries */
 @media (width < 799px) {
   .form-wrapper {
