@@ -1614,3 +1614,38 @@ Download and open the zip file to run in an editor
 
 
 ![Newsletter Dark Mode](documentation/assets/newsletter-change-color.jpg)
+
+
+## Learning Outcomes
+| Learning Outcome | Achieved |
+| --- | --- |
+| Design a website that incorporates a main navigation menu and a structured layout | Navigation on all pages |
+| Design a website that meets accessibility guidelines (e.g. contrast between background and foreground colours, non-text elements have planned alt text equivalents to cater for the visually impaired) | See screenshots below While there are contrast issues with normal text, the text in the brown and white is considered large text. |
+| Design the organisation of information on the page following the principles of user experience design (headers are used to convey structure, information is easy to find due to being presented and categorised in terms of priority) | h1 h2 h3 styling has been used correctly |
+| Ensure that foreground information is never distracted by backgrounds | This has been confirmed by testers of the site |
+| Include graphics that are consistent in style and colour | All images used are consistent |
+| Design the site to allow the user to initiate and control actions such as the playing of audio/video. | iFrames do not auto play and user has control |
+| Create a website of at least three pages, or (if using a single scrolling page) at least three separate page areas to match the design and to meet its stated purpose | site currently has 4 pages |
+| Write custom HTML code that passes through the official W3C validator with no issues. | Explained Above |
+| Write custom CSS code that passes through the official (Jigsaw) validator with no issues | Explained Above |
+| Incorporate images that are of sufficient resolution to not appear pixelated or stretched | This has been confirmed during testing |
+| Code all external links to open in a separate tab when clicked | All footer links open in a new tab iFrame is inline, but can be opened on a new page |
+| Use CSS media queries across the application to ensure the layout changes appropriately and maintains the page's structural integrity across device screen sizes. | Site is responsive on mobile / tablet |
+| Use Semantic markup to structure HTML code |
+| Present the finished website with clearly understandable site-specific content, rather than Lorem Ipsum placeholder text | All content is new and no placeholder |
+| Implement clear navigation to allow users to find resources on the site intuitively. | This has been confirmed during testing |
+| Deploy a final version of the code to a cloud-based hosting platform (e.g. GitHub Pages) and test to ensure it matches the development version | GitHub Pages has been used to deploy site |
+| Use Git & GitHub for version control of an interactive web application up to deployment. | Confirmed as used with over 100 commits |
+| Remove commented-out code before pushing final changes to version control and deploying. | Comments exist but not coded |
+| Ensure that there are no broken internal links | Confirmed in testing |
+| Insert screenshots of the finished project in the README | Confirmed |
+| Write a README.md file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure. | Confirmed |
+| Insert screenshots of the project features, give a brief description of what each feature does and explain its value to the user. | Confirmed |
+| Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the README. | Confirmed |
+| Clearly separate and identify code written for the website and code from external sources (e.g. libraries or tutorials) | Confirmed external code is in reset.css file or accredited in the readme |
+| Organise HTML and CSS code into well-defined and commented sections | Confirmed |
+| Place CSS code in external files linked to the HTML page in the HEAD element. | Confirmed |
+| Write code that meets at least minimum standards for readability (consistent indentation, blank lines only appear individually or, at most, in pairs) | Confirmed |
+| Name files consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility. | Confirmed |
+| Group files in directories by file type (e.g. an assets directory will contain all static files and may be organised into sub-directories such as CSS, images, etc.) | Images in assets folder, css in assets folder, read me in documentation folder |
+| Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors. | Confirmed |
