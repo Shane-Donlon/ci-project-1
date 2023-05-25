@@ -449,6 +449,10 @@ em {
 }
 
 /* Page not found error 404 */
+.grid-center {
+  display: grid;
+  justify-content: center;
+}
 .error-404__img {
   max-height: 500px;
   transition: fill 250ms ease;
@@ -458,8 +462,24 @@ em {
   fill: var(--clr-brown);
 }
 
+/* animations for index page */
+
+@keyframes slide {
+  0%,
+  100% {
+    top: 0px;
+  }
+  25% {
+    top: 20px;
+  }
+
+  50% {
+    top: -25px;
+  }
+}
+
 /* media queries support queries */
-@media (width < 799px) {
+@media (max-width: 799px) {
   .form-wrapper {
     width: 100%;
   }
@@ -561,6 +581,7 @@ em {
       position: absolute;
       top: 0;
       left: 0;
+      height: 0;
       z-index: -1;
       transition: translate var(--hamburger-animation-time),
         height 300ms ease-in-out;
@@ -572,9 +593,12 @@ em {
       background-color: var(--foreground);
       color: var(--background);
       max-width: 10rem;
-      height: 0;
       overflow: hidden;
     }
+    body:has(.hamburger-menu input:checked) {
+      overflow: hidden;
+    }
+
     .hamburger-menu:has(input:checked) + .sidebar {
       translate: 0%;
       height: 100vh;
@@ -592,7 +616,7 @@ em {
   color: var(--clr-white);
 }
 
-@media (width > 800px) {
+@media (min-width: 800px) {
   .nav-wrapper {
     align-items: center;
   }
@@ -628,20 +652,6 @@ em {
     position: relative;
     animation: slide 2s 3 ease-in-out;
     color: var(--clr-brown);
-  }
-
-  @keyframes slide {
-    0%,
-    100% {
-      top: 0px;
-    }
-    25% {
-      top: 20px;
-    }
-
-    50% {
-      top: -25px;
-    }
   }
 }
 
