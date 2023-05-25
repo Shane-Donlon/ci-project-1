@@ -61,6 +61,7 @@ JavaScript was not used on this site, as it was a HTML and CSS only challenge, i
 ![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
 
 - All links on focus (tab) have the same animation as hover for tab users to track their location on the page, footer focus outline visible only!
+
 ![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
 
 
