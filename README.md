@@ -36,6 +36,96 @@ Wexford Walking Group is a voluntary group of dog owners, who are keen to have o
 </ul>
 
 
+## Technology Used
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+
+JavaScript was not used on this site, as it was a HTML and CSS only challenge, if JavaScript was allowed for this I would have used an Event Listener and Arrow Function like below to toggle the active class on the hamburger menu
+
+    hamgurgerMenu = document.querySelector(".hamburger-menu");
+    navBar = document.querySelector(".nav");
+
+    hamgurgerMenu.addEventListener("click", () => {
+      navBar.classList.toggle("active");
+    });
+
+## Site Features
+### All pages
+- All links on hover have an animation and cursor pointer has been set to convey that they are hover a link
+
+
+![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
+
+
+![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
+
+- All links on focus (tab) have the same animation as hover for tab users to track their location on the page, footer focus outline visible only!
+
+![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
+
+
+![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
+
+
+![Footer hover Dark mode](documentation/assets/footer-change-color-hover.jpg)
+
+
+![Footer Focus Dark mode](documentation/assets/footer-focus.jpg)
+
+- A skip to content link is added on every page for accessilbity users to skip the navigation menu for returning users
+![Skip To Content](documentation/assets/skip-to-content.jpg)
+
+- Both light and dark modes are set per user preferances.
+(see site previews above)
+- Reduced animation used and set per user preferences
+
+- A hamburger menu has been added as this is an expectation of users for sites 
+![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
+
+![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
+
+
+- A feature query is used to automatically change to hamburger menu on supported platforms
+![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
+
+![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
+- Selection color has been used to carry the branding (on light and dark mode) but also the default blue does not work well with the theme colors
+
+
+![Selection Color Dark Mode](documentation/assets/selection-color-dark.jpg)
+
+
+![Selection Color Light Mode](documentation/assets/selection-color-light.jpg)
+
+
+### Index Page
+- The waggling animation has been used to attract users attention and to convey the idea of a dogs tail waggling and being happy.
+- This animation does not appear for those with reduced animation preferences.
+- This animation does not appear for mobile devices to keep site speed fast.
+
+
+![Waggling Animation Dark Mode](documentation/assets/waggling-animation.jpg)
+
+
+![Waggling Animation Light Mode](documentation/assets/waggling-animation-light-mode.jpg)
+
+### Routes Page
+- ABBR has been used to set the context from KM to kilometer
+
+
+![ABBR abbreeviation](documentation/assets/abbr-added-to-site.jpg)
+
+
+
+### Beginners Page
+- The newsletter form on this page has a red required outline
+- Upon valid input the color changes from red to green to give the visual feedback for the user
+
+
+![Newsletter Dark Mode](documentation/assets/newsletter-change-color.jpg)
+![Newsletter Dark Mode](documentation/assets/newsletter-change-color-light-mode.jpg)
+
 ## UX
 The website was designed to be intuitive, and easy to navigate, and to be quick to get to the information needed, with a focus on user system preferences, and accessibility. As this site is for a dog walking group, I also wanted to include fun for the users through animations and interest.
 The CSS :: selection pseudo element was also styled (for both dark and light modes) as part of this fun and interesting part of the site.
@@ -129,9 +219,9 @@ Examples of where this can be found:
   </li>
 </ul>
 
-### Symantec HTML
-Symantec HTML was also used on this site to provide additional context for accessibility.
-Overall Symantec HTML elements used:
+### Semantic HTML
+Semantic HTML was also used on this site to provide additional context for accessibility.
+Overall Semantic HTML elements used:
 
 <ul>
   <li>Header</li>
@@ -210,21 +300,6 @@ I intentionally kept both fonts a Sans-Serif font as to complement each other.
 
 A paragraph length was also used to ensure that no head turning is required to read long sentences on larger screens. 
 Font weights are not heavily prevalent in the site as this is informal, but also as over-relying on weights can reduce their impact.
-
-
-## Technology Used
-### Languages
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
-
-JavaScript was not used on this site, as it was a HTML and CSS only challenge, if JavaScript was allowed for this I would have used an Event Listener and Arrow Function like below to toggle the active class on the hamburger menu
-
-    hamgurgerMenu = document.querySelector(".hamburger-menu");
-    navBar = document.querySelector(".nav");
-
-    hamgurgerMenu.addEventListener("click", () => {
-      navBar.classList.toggle("active");
-    });
 
 
 
@@ -1541,82 +1616,7 @@ Locate the green Code button above the list of files and click it
 From the dropdown menu select download Zip.
 Download and open the zip file to run in an editor
 
-## Site Features
-### All pages
-- All links on hover have an animation and cursor pointer has been set to convey that they are hover a link
 
-
-![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
-
-
-![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
-
-- All linnk on focus (tab) have the same animation as hover for tab users to track their location on the page, footer focus outline visible only!
-![Links hover Dark mode](documentation/assets/navigation-color-change.jpg)
-
-
-![Links hover Light mode](documentation/assets/navigation-color-change-light-mode.jpg)
-
-
-![Footer hover Dark mode](documentation/assets/footer-change-color-hover.jpg)
-
-
-![Footer Focus Dark mode](documentation/assets/footer-focus.jpg)
-
-- A skip to content link is added on every page for accessilbity users to skip the navigation menu for returning users
-![Skip To Content](documentation/assets/skip-to-content.jpg)
-
-- Both light and dark modes are set per user preferances.
-(see site previews above)
-- Reduced animation used and set per user preferences
-
-- A hamburger menu has been added as this is an expectation of users for sites 
-- 
-![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
-
-![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
-
-
-- A feature query is used to automatically change to hamburger menu on supported platforms
-- 
-![Hamburger Menu](documentation/assets/chrome-has-supported.jpg)
-
-![Not Hamburget Menu](documentation/assets/firefox-has-not-supported.jpg)
-- Selection color has been used to carry the branding (on light and dark mode) but also the default blue does not work well with the theme colors
-
-
-![Selection Color Dark Mode](documentation/assets/selection-color-dark.jpg)
-
-
-![Selection Color Light Mode](documentation/assets/selection-color-light.jpg)
-
-
-### Index Page
-- The waggling animation has been used to attract users attention and to convey the idea of a dogs tail waggling and being happy.
-- This animation does not appear for those with reduced animation preferences.
-- This animation does not appear for mobile devices to keep site speed fast.
-
-
-![Waggling Animation Dark Mode](documentation/assets/waggling-animation.jpg)
-
-
-![Waggling Animation Light Mode](documentation/assets/waggling-animation-light-mode.jpg)
-
-### Routes Page
-- ABBR has been used to set the context from KM to kilometer
-
-
-![ABBR abbreeviation](documentation/assets/abbr-added-to-site.jpg)
-
-
-
-### Beginners Page
-- The newsletter form on this page has a red required outline
-- Upon valid input the color changes from red to green to give the visual feedback for the user
-
-
-![Newsletter Dark Mode](documentation/assets/newsletter-change-color.jpg)
-![Newsletter Dark Mode](documentation/assets/newsletter-change-color-light-mode.jpg)
 
 ## Learning Outcomes
 | Learning Outcome | Achieved |
