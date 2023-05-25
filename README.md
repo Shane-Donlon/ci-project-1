@@ -1616,7 +1616,7 @@ Download and open the zip file to run in an editor
 
 
 ![Newsletter Dark Mode](documentation/assets/newsletter-change-color.jpg)
-
+![Newsletter Dark Mode](documentation/assets/newsletter-change-color-light-mode.jpg)
 
 ## Learning Outcomes
 | Learning Outcome | Achieved |
