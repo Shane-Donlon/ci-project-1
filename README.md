@@ -1652,6 +1652,27 @@ Download and open the zip file to run in an editor
 | Group files in directories by file type (e.g. an assets directory will contain all static files and may be organised into sub-directories such as CSS, images, etc.) | Images in assets folder, css in assets folder, read me in documentation folder |
 | Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors. | Confirmed |
 
-### Color contrast
+## Color contrast
 ![Brown - White contrast](documentation/assets/wcag-contrast-ratio.jpg)
 ![Black - White contrast](documentation/assets/wcag-contrast-ratio-bw.jpg)
+
+## final version images
+### Dark mode
+![Dark mode index page](documentation/assets/index-page-final-dark.jpg)
+![Dark mode routes page top](documentation/assets/routes-page-final-top-dark.jpg)
+![Dark mode routes page mid](documentation/assets/routes-page-final-mid-dark.jpg)
+![Dark mode routes page end](documentation/assets/routes-page-final-end-dark.jpg)
+![Dark mode beginners page top](documentation/assets/beginners-page-final-top-dark.jpg)
+![Dark mode beginners page bottom](documentation/assets/beginners-page-final-bottom-dark.jpg)
+![Dark mode success page bottom](documentation/assets/success-page-final-dark.jpg)
+![Dark mode 404 page](documentation/assets/error-404-final-dark.jpg)
+
+### Light mode
+![Light mode index page](documentation/assets/index-page-final-light.jpg)
+![Light mode routes page top](documentation/assets/routes-page-final-top-light.jpg)
+![Light mode routes page mid](documentation/assets/routes-page-final-mid-light.jpg)
+![Light mode routes page end](documentation/assets/routes-page-final-end-light.jpg)
+![Light mode beginners page top](documentation/assets/beginners-page-final-top-light.jpg)
+![Light mode beginners page bottom](documentation/assets/beginners-page-final-bottom-light.jpg)
+![Light mode success page bottom](documentation/assets/success-page-final-light.jpg)
+![Light mode 404 page](documentation/assets/error-404-final-light.jpg)
