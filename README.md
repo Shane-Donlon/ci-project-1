@@ -1590,35 +1590,42 @@ Beginners Page
 ## Deployment
 The website was deployed using GitHub Pages:
 
-In the GitHub repository navigate to the Settings tab
-On the left-hand menu select Pages
-For the source select Branch: master
-After the web page refreshes automatically you will see a ribbon on the top saying: Your site is live at https://shane-donlon.github.io/ci-project-1/index.html
+<ol>
+    <li>In the GitHub repository navigate to the Settings tab</li>
+    <li>On the left-hand menu select Pages</li>
+    <li>For the source select Branch: master</li>
+    <li>After the web page refreshes automatically you will see a ribbon on the top saying: Your site is live at https://shane-donlon.github.io/ci-project-1/index.html</li>
+</ol>
+
 You can for fork the repository:
 
-Go to the GitHub repository
-Click on Fork button in the upper right-hand corner
-Edit the repository name and description if desired
-Click the green create fork button
+<ol>
+    <li>Go to the GitHub repository</li>
+    <li>Click on Fork button in the upper right-hand corner</li>
+    <li>Edit the repository name and description if desired</li>
+    <li>Click the green create fork button</li>
+</ol>
+
 You can clone the repository:
 
-Go to the GitHub repository
-Locate the green Code button above the list of files and click it
-Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
-Open Git Bash
-Change the current working directory to the one where you want the cloned directory
-Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-Press Enter to create your local clone.
-You can run this repository locally:
-
-Go to the GitHub repository
-Locate the green Code button above the list of files and click it
-From the dropdown menu select download Zip.
-Download and open the zip file to run in an editor
-
+<ol>
+    <li>Go to the GitHub repository</li>
+    <li>Locate the green Code button above the list of files and click it</li>
+    <li>Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard</li>
+    <li>Open Git Bash</li>
+    <li>Change the current working directory to the one where you want the cloned directory</li>
+    <li>Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)</li>
+    <li>Press Enter to create your local clone.</li>
+    <li>You can run this repository locally:</li>
+    <li>Go to the GitHub repository</li>
+    <li>Locate the green Code button above the list of files and click it</li>
+    <li>From the dropdown menu select download Zip.</li>
+    <li>Download and open the zip file to run in an editor</li>
+</ol>
 
 
 ## Learning Outcomes
+
 | Learning Outcome | Achieved |
 | --- | --- |
 | Design a website that incorporates a main navigation menu and a structured layout | Navigation on all pages |
@@ -1652,6 +1659,47 @@ Download and open the zip file to run in an editor
 | Group files in directories by file type (e.g. an assets directory will contain all static files and may be organised into sub-directories such as CSS, images, etc.) | Images in assets folder, css in assets folder, read me in documentation folder |
 | Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors. | Confirmed |
 
-### Color contrast
+## Color contrast
 ![Brown - White contrast](documentation/assets/wcag-contrast-ratio.jpg)
 ![Black - White contrast](documentation/assets/wcag-contrast-ratio-bw.jpg)
+
+## final version images
+### Dark mode
+- Index page
+
+![Dark mode index page](documentation/assets/index-page-final-dark.jpg)
+- Routes page
+
+![Dark mode routes page top](documentation/assets/routes-page-final-top-dark.jpg)
+![Dark mode routes page mid](documentation/assets/routes-page-final-mid-dark.jpg)
+![Dark mode routes page end](documentation/assets/routes-page-final-end-dark.jpg)
+- Beginners page
+
+![Dark mode beginners page top](documentation/assets/beginners-page-final-top-dark.jpg)
+![Dark mode beginners page bottom](documentation/assets/beginners-page-final-bottom-dark.jpg)
+- Success Page
+
+![Dark mode success page bottom](documentation/assets/success-page-final-dark.jpg)
+- Error 404 page
+
+![Dark mode 404 page](documentation/assets/error-404-final-dark.jpg)
+
+### Light mode
+- Index page
+
+![Light mode index page](documentation/assets/index-page-final-light.jpg)
+- Routes page
+
+![Light mode routes page top](documentation/assets/routes-page-final-top-light.jpg)
+![Light mode routes page mid](documentation/assets/routes-page-final-mid-light.jpg)
+![Light mode routes page end](documentation/assets/routes-page-final-end-light.jpg)
+- Beginners Page
+
+![Light mode beginners page top](documentation/assets/beginners-page-final-top-light.jpg)
+![Light mode beginners page bottom](documentation/assets/beginners-page-final-bottom-light.jpg)
+- Success page
+
+![Light mode success page bottom](documentation/assets/success-page-final-light.jpg)
+- Error 404 page
+
+![Light mode 404 page](documentation/assets/error-404-final-light.jpg)
