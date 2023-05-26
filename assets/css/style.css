@@ -493,6 +493,13 @@ em {
   .section-beginners__intro {
     margin-block: 4em 5em;
   }
+  .flex {
+    flex-direction: column;
+  }
+
+  .flex:nth-of-type(2) {
+    flex-flow: column-reverse;
+  }
 
   @supports (selector(:has(+ *))) {
     :root {
