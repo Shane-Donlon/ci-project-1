@@ -1581,6 +1581,7 @@ Beginners Page
 - [Fenrir Canine Video 2](https://www.youtube.com/watch?v=DgWGuOr8-Ro&ab_channel=WillAthertonCanineTraining)
 - [Web Dev Simplified Hamburger Menu](https://www.youtube.com/watch?v=dAIVbLrAb_U&ab_channel=WebDevSimplified&themeRefresh=1)
 - [PNG to ICO Converter](https://pngtoicon.com/)
+- [Coolors](https://coolors.co)
 - Darrach Barneveld - Classmate for feedback and testing
 - Artem Marych - Classmate for feedback and testing
 - Izabella Lopes - Classmate for feedback and testing
