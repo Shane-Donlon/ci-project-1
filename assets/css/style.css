@@ -60,16 +60,16 @@ p {
 
 .short-page__header {
   padding-block: 1em;
-  grid-area: "header-short-page";
+  grid-area: header-short-page;
 }
 
 .short-page__main {
-  grid-area: "main-short-page";
+  grid-area: main-short-page;
   align-self: center;
 }
 
 .short-page__footer {
-  grid-area: "footer-short-page";
+  grid-area: footer-short-page;
 }
 
 .h1,
