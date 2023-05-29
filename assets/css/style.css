@@ -6,15 +6,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --fs-400: 1rem;
-  --fw-regualar: 400;
   --clr-white: white;
   --clr-black: black;
   --clr-brown: #85480f;
   --clr-nav-link: var(--clr-brown);
   --wrapper-smallest: 100% - 3rem;
   --wrapper-biggest: 1500px;
-
   --ff-secondary: "Bebas Neue", cursive;
   --clamp-large: 2.5rem, 2.4048rem + 0.4762vw, 3rem;
   --clamp-small: 1.25rem, 1rem + 2vw, 1.15rem;
@@ -170,7 +167,6 @@ p {
 /* footer */
 
 .footer {
-  grid-area: "footer-home-page";
   margin-top: 0;
   background-color: var(--clr-brown);
   padding-block: 2em;
