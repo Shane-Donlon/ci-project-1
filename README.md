@@ -1561,6 +1561,7 @@ Beginners Page
 ## Credits
 
 - [Image Compressor](https://imagecompressor.com/)
+- [SVG 404 Page](https://freesvg.org/sad-dog-with-a-broken-leg-vector-illustration)
 - [Dog Favicon](https://icons8.com/icon/16018/dog)
 - [Google Fonts - Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
