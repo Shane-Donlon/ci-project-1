@@ -1465,7 +1465,7 @@ HTML Code has been validated with no errors, and 2 warnings regarding Role = lis
 
 CSS Code has been validated with errors, but this is due to the dynamic nature of custom properties in CSS,
 This appears to be an issue with Jigsaw validation and not a code error.
-The same issue appears for Grid Area - this is not a coding error rather than an issue with Jigsaw.
+
 
 ![CSS Validator errors](documentation/assets/css-validator-results-errors.jpg)
 ![CSS Validator warnings](documentation/assets/css-validator-resutls-warning.jpg)
